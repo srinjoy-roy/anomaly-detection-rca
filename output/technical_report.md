@@ -1,0 +1,168 @@
+
+# TECHNICAL ANALYSIS REPORT
+
+## Model Performance
+- **Anomaly Detection Model**: LSTM-Autoencoder
+- **Sequence Length**: 50
+- **Feature Dimensions**: 11
+- **Reconstruction Threshold**: 2.1779
+
+## Statistical Analysis
+- **Total Logs**: 68,927
+- **Anomalous Logs**: 5,161
+- **Anomaly Rate**: 7.49%
+- **Average Reconstruction Error**: 5.1415
+- **Maximum Reconstruction Error**: 99.4521
+
+## Anomaly Distribution by Log Level
+- **INFO**: 2846 anomalies
+- **UNKNOWN**: 2095 anomalies
+- **WARN**: 137 anomalies
+- **ERROR**: 83 anomalies
+
+## Anomaly Distribution by Component
+- **BlockManagerInfo**: 735 anomalies
+- **storage.MemoryStore**: 604 anomalies
+- **UNKNOWN**: 427 anomalies
+- **NioEventLoop.java**: 264 anomalies
+- **TaskSetManager**: 232 anomalies
+- **executor.Executor**: 152 anomalies
+- **executor.CoarseGrainedExecutorBackend**: 148 anomalies
+- **RetryingBlockFetcher.java**: 136 anomalies
+- **YarnAllocator**: 117 anomalies
+- **ExecutorRunnable**: 110 anomalies
+- **ThreadPoolExecutor.java**: 107 anomalies
+- **TransportClientFactory.java**: 92 anomalies
+- **spark.SecurityManager**: 78 anomalies
+- **Thread.java**: 74 anomalies
+- **shuffle.RetryingBlockFetcher**: 68 anomalies
+- **java.io.IOException**: 67 anomalies
+- **NioSocketChannel.java**: 66 anomalies
+- **SocketChannelImpl.java**: 66 anomalies
+- **SingleThreadEventExecutor.java**: 66 anomalies
+- **broadcast.TorrentBroadcast**: 60 anomalies
+- **by**: 52 anomalies
+- **ContextHandler**: 50 anomalies
+- **NettyBlockTransferService.scala**: 48 anomalies
+- **AbstractNioChannel.java**: 46 anomalies
+- **ContainerManagementProtocolProxy**: 44 anomalies
+- **Executors.java**: 44 anomalies
+- **FutureTask.java**: 44 anomalies
+- **http**: 44 anomalies
+- **hadoop**: 44 anomalies
+- **YarnClusterSchedulerBackend**: 41 anomalies
+- **IOUtil.java**: 40 anomalies
+- **BlockManagerMasterEndpoint**: 37 anomalies
+- **DAGScheduler**: 36 anomalies
+- **client.TransportClientFactory**: 35 anomalies
+- **MemoryStore**: 35 anomalies
+- **storage.ShuffleBlockFetcherIterator**: 32 anomalies
+- **Remoting**: 30 anomalies
+- **AMRMClientImpl**: 28 anomalies
+- **PythonRDD.scala**: 28 anomalies
+- **storage.BlockManagerMaster**: 26 anomalies
+- **util.Utils**: 26 anomalies
+- **TorrentBroadcast.scala**: 24 anomalies
+- **YarnClusterScheduler**: 24 anomalies
+- **util.ShutdownHookManager**: 23 anomalies
+- **XX**: 22 anomalies
+- **command**: 22 anomalies
+- **context**: 22 anomalies
+- **hdfs**: 22 anomalies
+- **env**: 22 anomalies
+- **storage.BlockManager**: 21 anomalies
+- **python.PythonRunner**: 21 anomalies
+- **ApplicationMaster**: 20 anomalies
+- **PooledUnsafeDirectByteBuf.java**: 20 anomalies
+- **AbstractNioByteChannel.java**: 20 anomalies
+- **AbstractByteBuf.java**: 20 anomalies
+- **storage.DiskBlockManager**: 20 anomalies
+- **SocketDispatcher.java**: 20 anomalies
+- **remote.RemoteActorRefProvider$RemotingTerminator**: 16 anomalies
+- **RDD.scala**: 16 anomalies
+- **BlockManagerMaster**: 15 anomalies
+- **Configuration.deprecation**: 15 anomalies
+- **SparkContext**: 15 anomalies
+- **slf4j.Slf4jLogger**: 13 anomalies
+- **netty.NettyBlockTransferService**: 13 anomalies
+- **YarnSchedulerBackend$YarnSchedulerEndpoint**: 12 anomalies
+- **SecurityManager**: 12 anomalies
+- **server.TransportChannelHandler**: 10 anomalies
+- **spark.MapOutputTrackerWorker**: 10 anomalies
+- **shuffle.OneForOneBlockFetcher**: 9 anomalies
+- **BlockManager.scala**: 9 anomalies
+- **ExecutorRunnable.scala**: 9 anomalies
+- **IOError**: 9 anomalies
+- **client.TransportResponseHandler**: 9 anomalies
+- **ShuffleMapTask.scala**: 8 anomalies
+- **Utils**: 8 anomalies
+- **SparkEnv**: 6 anomalies
+- **RemoteActorRefProvider$RemotingTerminator**: 6 anomalies
+- **ShutdownHookManager**: 6 anomalies
+- **SerializedExceptionPBImpl.java**: 6 anomalies
+- **Utils.scala**: 5 anomalies
+- **Executor.scala**: 5 anomalies
+- **Iterator.scala**: 4 anomalies
+- **BlockManager**: 4 anomalies
+- **rdd.HadoopRDD**: 4 anomalies
+- **Task.scala**: 4 anomalies
+- **SparkUI**: 4 anomalies
+- **DiskBlockManager.scala**: 4 anomalies
+- **Inbox.scala**: 3 anomalies
+- **java.lang.Error**: 3 anomalies
+- **Note**: 3 anomalies
+- **NativeConstructorAccessorImpl.java**: 3 anomalies
+- **DelegatingConstructorAccessorImpl.java**: 3 anomalies
+- **Constructor.java**: 3 anomalies
+- **NMClientImpl.java**: 3 anomalies
+- **org.apache.spark.api.python.PythonException**: 3 anomalies
+- **ArrayBuffer.scala**: 2 anomalies
+- **Option.scala**: 2 anomalies
+- **List.scala**: 2 anomalies
+- **OutputCommitCoordinator$OutputCommitCoordinatorEndpoint**: 2 anomalies
+- **MapOutputTrackerMasterEndpoint**: 2 anomalies
+- **Iterable.scala**: 2 anomalies
+- **Broadcast.scala**: 2 anomalies
+- **BlockTransferService.scala**: 2 anomalies
+- **IterableLike.scala**: 2 anomalies
+- **FileInputFormat**: 2 anomalies
+- **Slf4jLogger**: 2 anomalies
+- **DiskBlockManager**: 2 anomalies
+- **JettyUtils**: 2 anomalies
+- **Server**: 2 anomalies
+- **AbstractConnector**: 2 anomalies
+- **NettyBlockTransferService**: 2 anomalies
+- **RMProxy**: 2 anomalies
+- **YarnRMClient**: 2 anomalies
+- **ResizableArray.scala**: 2 anomalies
+- **f**: 1 anomalies
+- **TransportChannelHandler**: 1 anomalies
+- **ContextCleaner**: 1 anomalies
+- **IndexedSeqOptimized.scala**: 1 anomalies
+- **ArrayOps.scala**: 1 anomalies
+- **SparkEnv.scala**: 1 anomalies
+- **iterator**: 1 anomalies
+- **PythonRDD**: 1 anomalies
+- **ParallelCollectionRDD**: 1 anomalies
+- **Dispatcher.scala**: 1 anomalies
+- **CoarseGrainedExecutorBackend.scala**: 1 anomalies
+
+## Graph Analysis Metrics
+- **Total Failure Nodes**: 5161
+- **Failure Connections**: 712002
+- **Graph Density**: 0.0267
+- **Connected Components**: 2121
+
+## Feature Importance
+The following features were used for anomaly detection:
+- log_level_numeric
+- component_encoded
+- message_length
+- hour
+- day_of_week
+- is_weekend
+- is_exception
+- high_memory
+- high_vcores
+- template_frequency
+- is_rare_template

@@ -1,0 +1,83 @@
+16/04/07 10:45:34 INFO executor.CoarseGrainedExecutorBackend: Registered signal handlers for [TERM, HUP, INT]
+16/04/07 10:45:35 INFO spark.SecurityManager: Changing view acls to: yarn,curi
+16/04/07 10:45:35 INFO spark.SecurityManager: Changing modify acls to: yarn,curi
+16/04/07 10:45:35 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+16/04/07 10:45:36 INFO spark.SecurityManager: Changing view acls to: yarn,curi
+16/04/07 10:45:36 INFO spark.SecurityManager: Changing modify acls to: yarn,curi
+16/04/07 10:45:36 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+16/04/07 10:45:36 INFO slf4j.Slf4jLogger: Slf4jLogger started
+16/04/07 10:45:37 INFO Remoting: Starting remoting
+16/04/07 10:45:37 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-15:40489]
+16/04/07 10:45:37 INFO util.Utils: Successfully started service 'sparkExecutorActorSystem' on port 40489.
+16/04/07 10:45:37 INFO storage.DiskBlockManager: Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1448006111297_0137/blockmgr-2a4b09bf-53df-4934-b530-cf2931e85357
+16/04/07 10:45:37 INFO storage.MemoryStore: MemoryStore started with capacity 27.8 GB
+16/04/07 10:45:37 INFO executor.CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@10.10.34.34:43670
+16/04/07 10:45:37 INFO executor.CoarseGrainedExecutorBackend: Successfully registered with driver
+16/04/07 10:45:37 INFO executor.Executor: Starting executor ID 50 on host mesos-slave-15
+16/04/07 10:45:37 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43753.
+16/04/07 10:45:37 INFO netty.NettyBlockTransferService: Server created on 43753
+16/04/07 10:45:37 INFO storage.BlockManagerMaster: Trying to register BlockManager
+16/04/07 10:45:37 INFO storage.BlockManagerMaster: Registered BlockManager
+16/04/07 10:46:01 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1
+16/04/07 10:46:01 INFO executor.Executor: Running task 12.0 in stage 0.0 (TID 1)
+16/04/07 10:46:01 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 6
+16/04/07 10:46:01 INFO storage.MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 6.1 KB, free 6.1 KB)
+16/04/07 10:46:01 INFO broadcast.TorrentBroadcast: Reading broadcast variable 6 took 162 ms
+16/04/07 10:46:01 INFO storage.MemoryStore: Block broadcast_6 stored as values in memory (estimated size 9.9 KB, free 16.1 KB)
+16/04/07 10:46:01 INFO rdd.HadoopRDD: Input split: hdfs://10.10.34.11:9000/pjhe/logs/sosp_29_withID.log:1610612736+45664099
+16/04/07 10:46:01 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 5
+16/04/07 10:46:01 INFO storage.MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 21.4 KB, free 37.5 KB)
+16/04/07 10:46:01 INFO broadcast.TorrentBroadcast: Reading broadcast variable 5 took 48 ms
+16/04/07 10:46:02 INFO storage.MemoryStore: Block broadcast_5 stored as values in memory (estimated size 374.3 KB, free 411.7 KB)
+16/04/07 10:46:03 INFO Configuration.deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+16/04/07 10:46:03 INFO Configuration.deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+16/04/07 10:46:03 INFO Configuration.deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+16/04/07 10:46:03 INFO Configuration.deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+16/04/07 10:46:03 INFO Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+16/04/07 10:46:03 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 1
+16/04/07 10:46:03 INFO storage.MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 105.0 B, free 411.9 KB)
+16/04/07 10:46:03 INFO broadcast.TorrentBroadcast: Reading broadcast variable 1 took 28 ms
+16/04/07 10:46:03 INFO storage.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 416.0 B, free 412.3 KB)
+16/04/07 10:46:03 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 0
+16/04/07 10:46:03 INFO storage.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 91.0 B, free 412.3 KB)
+16/04/07 10:46:03 INFO broadcast.TorrentBroadcast: Reading broadcast variable 0 took 152 ms
+16/04/07 10:46:03 INFO storage.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 416.0 B, free 412.8 KB)
+16/04/07 10:46:03 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 2
+16/04/07 10:46:03 INFO storage.MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 91.0 B, free 412.8 KB)
+16/04/07 10:46:03 INFO broadcast.TorrentBroadcast: Reading broadcast variable 2 took 51 ms
+16/04/07 10:46:03 INFO storage.MemoryStore: Block broadcast_2 stored as values in memory (estimated size 416.0 B, free 413.2 KB)
+16/04/07 10:46:03 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 3
+16/04/07 10:46:03 INFO storage.MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 150.0 B, free 413.4 KB)
+16/04/07 10:46:03 INFO broadcast.TorrentBroadcast: Reading broadcast variable 3 took 24 ms
+16/04/07 10:46:03 INFO storage.MemoryStore: Block broadcast_3 stored as values in memory (estimated size 416.0 B, free 413.8 KB)
+16/04/07 10:46:03 INFO executor.CoarseGrainedExecutorBackend: Driver commanded a shutdown
+16/04/07 10:46:04 ERROR storage.DiskBlockManager: Exception while deleting local spark dir: /opt/hdfs/nodemanager/usercache/curi/appcache/application_1448006111297_0137/blockmgr-2a4b09bf-53df-4934-b530-cf2931e85357
+java.io.IOException: Failed to delete: /opt/hdfs/nodemanager/usercache/curi/appcache/application_1448006111297_0137/blockmgr-2a4b09bf-53df-4934-b530-cf2931e85357
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:928)
+	at org.apache.spark.storage.DiskBlockManager$$anonfun$org$apache$spark$storage$DiskBlockManager$$doStop$1.apply(DiskBlockManager.scala:174)
+	at org.apache.spark.storage.DiskBlockManager$$anonfun$org$apache$spark$storage$DiskBlockManager$$doStop$1.apply(DiskBlockManager.scala:170)
+	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+	at org.apache.spark.storage.DiskBlockManager.org$apache$spark$storage$DiskBlockManager$$doStop(DiskBlockManager.scala:170)
+	at org.apache.spark.storage.DiskBlockManager.stop(DiskBlockManager.scala:162)
+	at org.apache.spark.storage.BlockManager.stop(BlockManager.scala:1233)
+	at org.apache.spark.SparkEnv.stop(SparkEnv.scala:96)
+	at org.apache.spark.executor.Executor.stop(Executor.scala:143)
+	at org.apache.spark.executor.CoarseGrainedExecutorBackend$$anonfun$receive$1.applyOrElse(CoarseGrainedExecutorBackend.scala:115)
+	at org.apache.spark.rpc.netty.Inbox$$anonfun$process$1.apply$mcV$sp(Inbox.scala:116)
+	at org.apache.spark.rpc.netty.Inbox.safelyCall(Inbox.scala:204)
+	at org.apache.spark.rpc.netty.Inbox.process(Inbox.scala:100)
+	at org.apache.spark.rpc.netty.Dispatcher$MessageLoop.run(Dispatcher.scala:215)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+16/04/07 10:46:04 INFO storage.MemoryStore: MemoryStore cleared
+16/04/07 10:46:04 INFO storage.BlockManager: BlockManager stopped
+16/04/07 10:46:04 WARN executor.CoarseGrainedExecutorBackend: An unknown (mesos-slave-24:43670) driver disconnected.
+16/04/07 10:46:04 ERROR executor.CoarseGrainedExecutorBackend: Driver 10.10.34.34:43670 disassociated! Shutting down.
+16/04/07 10:46:04 INFO util.ShutdownHookManager: Shutdown hook called
+16/04/07 10:46:04 INFO util.ShutdownHookManager: Deleting directory /opt/hdfs/nodemanager/usercache/curi/appcache/application_1448006111297_0137/spark-1752fb54-549f-47bd-865b-89435d8f8639
+16/04/07 10:46:04 INFO remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+16/04/07 10:46:04 INFO remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+16/04/07 10:46:04 INFO executor.Executor: Finished task 12.0 in stage 0.0 (TID 1). 2335 bytes result sent to driver
+16/04/07 10:46:04 INFO remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.

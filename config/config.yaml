@@ -1,0 +1,18 @@
+# Spark Cluster Anomaly Detection Configuration
+# Only includes parameters that are actually used in the code
+
+# Data Processing Configuration
+data:
+  log_directory: "logs"  # Input log directory
+  output_directory: "output"      # Output directory for results
+  sample_size: null               # Number of log files to process (null = all)
+
+# Model Configuration
+model:
+  sequence_length: 50      # LSTM sequence length (time steps)
+  epochs: 50               # Maximum training epochs (reduced for faster training)
+  validation_split: 0.2    # Percentage of data for validation (0.2 = 20%)
+
+# Root Cause Analysis Configuration
+root_cause:
+  time_window_minutes: 5   # Time window for correlating related anomalies

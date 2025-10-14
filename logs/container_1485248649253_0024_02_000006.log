@@ -1,0 +1,50 @@
+17/03/14 22:35:50 INFO executor.CoarseGrainedExecutorBackend: Registered signal handlers for [TERM, HUP, INT]
+17/03/14 22:35:51 INFO spark.SecurityManager: Changing view acls to: yarn,curi
+17/03/14 22:35:51 INFO spark.SecurityManager: Changing modify acls to: yarn,curi
+17/03/14 22:35:51 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+17/03/14 22:35:51 INFO spark.SecurityManager: Changing view acls to: yarn,curi
+17/03/14 22:35:51 INFO spark.SecurityManager: Changing modify acls to: yarn,curi
+17/03/14 22:35:51 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)
+17/03/14 22:35:52 INFO slf4j.Slf4jLogger: Slf4jLogger started
+17/03/14 22:35:52 INFO Remoting: Starting remoting
+17/03/14 22:35:52 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-master-1:47938]
+17/03/14 22:35:52 INFO util.Utils: Successfully started service 'sparkExecutorActorSystem' on port 47938.
+17/03/14 22:35:52 INFO storage.DiskBlockManager: Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0024/blockmgr-5d29888a-e29f-4586-9b5c-af388e28a255
+17/03/14 22:35:52 INFO storage.MemoryStore: MemoryStore started with capacity 14.2 GB
+17/03/14 22:35:52 INFO executor.CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@10.10.34.17:56012
+17/03/14 22:35:52 INFO executor.CoarseGrainedExecutorBackend: Successfully registered with driver
+17/03/14 22:35:52 INFO executor.Executor: Starting executor ID 5 on host mesos-master-1
+17/03/14 22:35:52 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 53492.
+17/03/14 22:35:52 INFO netty.NettyBlockTransferService: Server created on 53492
+17/03/14 22:35:52 INFO storage.BlockManagerMaster: Trying to register BlockManager
+17/03/14 22:35:52 INFO storage.BlockManagerMaster: Registered BlockManager
+17/03/14 22:35:56 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 0
+17/03/14 22:35:56 INFO executor.CoarseGrainedExecutorBackend: Got assigned task 1
+17/03/14 22:35:56 INFO executor.Executor: Running task 0.0 in stage 0.0 (TID 0)
+17/03/14 22:35:56 INFO executor.Executor: Running task 1.0 in stage 0.0 (TID 1)
+17/03/14 22:35:56 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 1
+17/03/14 22:35:56 INFO storage.MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 3.7 KB, free 3.7 KB)
+17/03/14 22:35:56 INFO broadcast.TorrentBroadcast: Reading broadcast variable 1 took 114 ms
+17/03/14 22:35:56 INFO storage.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 6.0 KB, free 9.7 KB)
+17/03/14 22:35:56 INFO rdd.HadoopRDD: Input split: hdfs://10.10.34.11:9000/user/niuxy/com-amazon.ungraph.txt:6292942+6292942
+17/03/14 22:35:56 INFO rdd.HadoopRDD: Input split: hdfs://10.10.34.11:9000/user/niuxy/com-amazon.ungraph.txt:0+6292942
+17/03/14 22:35:56 INFO broadcast.TorrentBroadcast: Started reading broadcast variable 0
+17/03/14 22:35:56 INFO storage.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 21.4 KB, free 31.1 KB)
+17/03/14 22:35:56 INFO broadcast.TorrentBroadcast: Reading broadcast variable 0 took 18 ms
+17/03/14 22:35:56 INFO storage.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 281.6 KB, free 312.8 KB)
+17/03/14 22:35:56 INFO Configuration.deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+17/03/14 22:35:56 INFO Configuration.deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+17/03/14 22:35:56 INFO Configuration.deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+17/03/14 22:35:56 INFO Configuration.deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+17/03/14 22:35:56 INFO Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+17/03/14 22:36:01 INFO python.PythonRunner: Times: total = 4620, boot = 603, init = 88, finish = 3929
+17/03/14 22:36:01 INFO executor.Executor: Finished task 1.0 in stage 0.0 (TID 1). 14372091 bytes result sent to driver
+17/03/14 22:36:01 INFO python.PythonRunner: Times: total = 4723, boot = 639, init = 105, finish = 3979
+17/03/14 22:36:01 INFO executor.Executor: Finished task 0.0 in stage 0.0 (TID 0). 14332673 bytes result sent to driver
+17/03/14 22:47:11 INFO executor.CoarseGrainedExecutorBackend: Driver commanded a shutdown
+17/03/14 22:47:11 INFO storage.MemoryStore: MemoryStore cleared
+17/03/14 22:47:11 INFO storage.BlockManager: BlockManager stopped
+17/03/14 22:47:11 WARN executor.CoarseGrainedExecutorBackend: An unknown (mesos-slave-07:56012) driver disconnected.
+17/03/14 22:47:11 ERROR executor.CoarseGrainedExecutorBackend: Driver 10.10.34.17:56012 disassociated! Shutting down.
+17/03/14 22:47:11 INFO util.ShutdownHookManager: Shutdown hook called
+17/03/14 22:47:11 INFO remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.

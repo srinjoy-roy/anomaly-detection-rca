@@ -1,0 +1,3683 @@
+{
+  "1": {
+    "template": "<*> <*> INFO <*> Registered signal handlers for [TERM, HUP, INT]",
+    "size": 15,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Registered",
+      "signal",
+      "handlers",
+      "for",
+      "[TERM,",
+      "HUP,",
+      "INT]"
+    ]
+  },
+  "2": {
+    "template": "<*> <*> INFO <*> Changing <*> acls to: yarn,curi",
+    "size": 60,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Changing",
+      "<*>",
+      "acls",
+      "to:",
+      "yarn,curi"
+    ]
+  },
+  "3": {
+    "template": "<*> <*> INFO <*> SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)",
+    "size": 30,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "SecurityManager:",
+      "authentication",
+      "disabled;",
+      "ui",
+      "acls",
+      "disabled;",
+      "users",
+      "with",
+      "view",
+      "permissions:",
+      "Set(yarn,",
+      "curi);",
+      "users",
+      "with",
+      "modify",
+      "permissions:",
+      "Set(yarn,",
+      "curi)"
+    ]
+  },
+  "4": {
+    "template": "17/03/16 17:47:26 INFO <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "17:47:26",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "5": {
+    "template": "<*> <*> INFO Remoting: Remoting started; listening on addresses <*>",
+    "size": 15,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "Remoting:",
+      "Remoting",
+      "started;",
+      "listening",
+      "on",
+      "addresses",
+      "<*>"
+    ]
+  },
+  "6": {
+    "template": "<*> <*> INFO <*> Successfully started service <*> on port <*>",
+    "size": 34,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Successfully",
+      "started",
+      "service",
+      "<*>",
+      "on",
+      "port",
+      "<*>"
+    ]
+  },
+  "7": {
+    "template": "<*> <*> INFO <*> Created local directory at <*>",
+    "size": 15,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Created",
+      "local",
+      "directory",
+      "at",
+      "<*>"
+    ]
+  },
+  "8": {
+    "template": "<*> <*> INFO <*> MemoryStore started with capacity <*> GB",
+    "size": 15,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "MemoryStore",
+      "started",
+      "with",
+      "capacity",
+      "<*>",
+      "GB"
+    ]
+  },
+  "9": {
+    "template": "17/03/16 17:47:27 INFO executor.CoarseGrainedExecutorBackend: <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "17:47:27",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "10": {
+    "template": "<*> <*> INFO executor.Executor: Starting executor ID <*> on host <*>",
+    "size": 13,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "executor.Executor:",
+      "Starting",
+      "executor",
+      "ID",
+      "<*>",
+      "on",
+      "host",
+      "<*>"
+    ]
+  },
+  "11": {
+    "template": "<*> <*> INFO <*> Server created on <*>",
+    "size": 15,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Server",
+      "created",
+      "on",
+      "<*>"
+    ]
+  },
+  "12": {
+    "template": "<*> <*> INFO <*> Trying to register BlockManager",
+    "size": 15,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Trying",
+      "to",
+      "register",
+      "BlockManager"
+    ]
+  },
+  "13": {
+    "template": "<*> <*> INFO storage.BlockManagerMaster: Registered BlockManager",
+    "size": 13,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "storage.BlockManagerMaster:",
+      "Registered",
+      "BlockManager"
+    ]
+  },
+  "14": {
+    "template": "<*> <*> INFO executor.CoarseGrainedExecutorBackend: Got assigned task <*>",
+    "size": 739,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "Got",
+      "assigned",
+      "task",
+      "<*>"
+    ]
+  },
+  "15": {
+    "template": "<*> <*> INFO executor.Executor: Running task <*> in stage <*> (TID <*>",
+    "size": 739,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "executor.Executor:",
+      "Running",
+      "task",
+      "<*>",
+      "in",
+      "stage",
+      "<*>",
+      "(TID",
+      "<*>"
+    ]
+  },
+  "16": {
+    "template": "<*> <*> INFO broadcast.TorrentBroadcast: Started reading broadcast variable <*>",
+    "size": 187,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "broadcast.TorrentBroadcast:",
+      "Started",
+      "reading",
+      "broadcast",
+      "variable",
+      "<*>"
+    ]
+  },
+  "17": {
+    "template": "<*> <*> INFO <*> Block <*> stored as <*> in memory (estimated size <*> <*> free <*> <*>",
+    "size": 17198,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Block",
+      "<*>",
+      "stored",
+      "as",
+      "<*>",
+      "in",
+      "memory",
+      "(estimated",
+      "size",
+      "<*>",
+      "<*>",
+      "free",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "18": {
+    "template": "<*> <*> INFO broadcast.TorrentBroadcast: Reading broadcast variable <*> took <*> ms",
+    "size": 187,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "broadcast.TorrentBroadcast:",
+      "Reading",
+      "broadcast",
+      "variable",
+      "<*>",
+      "took",
+      "<*>",
+      "ms"
+    ]
+  },
+  "19": {
+    "template": "<*> <*> INFO rdd.HadoopRDD: Input split: <*>",
+    "size": 6,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "rdd.HadoopRDD:",
+      "Input",
+      "split:",
+      "<*>"
+    ]
+  },
+  "20": {
+    "template": "<*> <*> INFO Configuration.deprecation: <*> is deprecated. Instead, use <*>",
+    "size": 20,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "Configuration.deprecation:",
+      "<*>",
+      "is",
+      "deprecated.",
+      "Instead,",
+      "use",
+      "<*>"
+    ]
+  },
+  "21": {
+    "template": "<*> <*> INFO python.PythonRunner: Times: total = <*> boot = <*> init = <*> finish = <*>",
+    "size": 664,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "python.PythonRunner:",
+      "Times:",
+      "total",
+      "=",
+      "<*>",
+      "boot",
+      "=",
+      "<*>",
+      "init",
+      "=",
+      "<*>",
+      "finish",
+      "=",
+      "<*>"
+    ]
+  },
+  "22": {
+    "template": "<*> <*> INFO executor.Executor: Finished task <*> in stage <*> (TID <*> <*> bytes result sent to driver",
+    "size": 665,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "executor.Executor:",
+      "Finished",
+      "task",
+      "<*>",
+      "in",
+      "stage",
+      "<*>",
+      "(TID",
+      "<*>",
+      "<*>",
+      "bytes",
+      "result",
+      "sent",
+      "to",
+      "driver"
+    ]
+  },
+  "23": {
+    "template": "17/03/16 <*> INFO spark.MapOutputTrackerWorker: Updating epoch to <*> and clearing cache",
+    "size": 40,
+    "log_template_tokens": [
+      "17/03/16",
+      "<*>",
+      "INFO",
+      "spark.MapOutputTrackerWorker:",
+      "Updating",
+      "epoch",
+      "to",
+      "<*>",
+      "and",
+      "clearing",
+      "cache"
+    ]
+  },
+  "24": {
+    "template": "17/03/16 <*> INFO spark.MapOutputTrackerWorker: Don't have map outputs for shuffle <*> fetching them",
+    "size": 282,
+    "log_template_tokens": [
+      "17/03/16",
+      "<*>",
+      "INFO",
+      "spark.MapOutputTrackerWorker:",
+      "Don't",
+      "have",
+      "map",
+      "outputs",
+      "for",
+      "shuffle",
+      "<*>",
+      "fetching",
+      "them"
+    ]
+  },
+  "25": {
+    "template": "17/03/16 <*> INFO spark.MapOutputTrackerWorker: Doing the fetch; tracker endpoint = NettyRpcEndpointRef(spark://MapOutputTracker@10.10.34.38:36751)",
+    "size": 39,
+    "log_template_tokens": [
+      "17/03/16",
+      "<*>",
+      "INFO",
+      "spark.MapOutputTrackerWorker:",
+      "Doing",
+      "the",
+      "fetch;",
+      "tracker",
+      "endpoint",
+      "=",
+      "NettyRpcEndpointRef(spark://MapOutputTracker@10.10.34.38:36751)"
+    ]
+  },
+  "26": {
+    "template": "17/03/16 <*> INFO spark.MapOutputTrackerWorker: Got the output locations",
+    "size": 39,
+    "log_template_tokens": [
+      "17/03/16",
+      "<*>",
+      "INFO",
+      "spark.MapOutputTrackerWorker:",
+      "Got",
+      "the",
+      "output",
+      "locations"
+    ]
+  },
+  "27": {
+    "template": "17/03/16 <*> INFO storage.ShuffleBlockFetcherIterator: Getting 48 non-empty blocks out of 48 blocks",
+    "size": 320,
+    "log_template_tokens": [
+      "17/03/16",
+      "<*>",
+      "INFO",
+      "storage.ShuffleBlockFetcherIterator:",
+      "Getting",
+      "48",
+      "non-empty",
+      "blocks",
+      "out",
+      "of",
+      "48",
+      "blocks"
+    ]
+  },
+  "28": {
+    "template": "17/03/16 <*> INFO storage.ShuffleBlockFetcherIterator: Started <*> remote fetches in <*> ms",
+    "size": 320,
+    "log_template_tokens": [
+      "17/03/16",
+      "<*>",
+      "INFO",
+      "storage.ShuffleBlockFetcherIterator:",
+      "Started",
+      "<*>",
+      "remote",
+      "fetches",
+      "in",
+      "<*>",
+      "ms"
+    ]
+  },
+  "29": {
+    "template": "17/03/16 <*> INFO <*> Removing RDD <*>",
+    "size": 120,
+    "log_template_tokens": [
+      "17/03/16",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Removing",
+      "RDD",
+      "<*>"
+    ]
+  },
+  "30": {
+    "template": "<*> <*> INFO executor.CoarseGrainedExecutorBackend: Driver commanded a shutdown",
+    "size": 6,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "Driver",
+      "commanded",
+      "a",
+      "shutdown"
+    ]
+  },
+  "31": {
+    "template": "17/03/16 20:27:13 INFO <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "20:27:13",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "32": {
+    "template": "<*> <*> WARN executor.CoarseGrainedExecutorBackend: An unknown <*> driver disconnected.",
+    "size": 6,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "WARN",
+      "executor.CoarseGrainedExecutorBackend:",
+      "An",
+      "unknown",
+      "<*>",
+      "driver",
+      "disconnected."
+    ]
+  },
+  "33": {
+    "template": "<*> <*> ERROR executor.CoarseGrainedExecutorBackend: Driver <*> disassociated! Shutting down.",
+    "size": 6,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "ERROR",
+      "executor.CoarseGrainedExecutorBackend:",
+      "Driver",
+      "<*>",
+      "disassociated!",
+      "Shutting",
+      "down."
+    ]
+  },
+  "34": {
+    "template": "17/03/16 20:27:13 INFO <*> <*> <*> <*>",
+    "size": 3,
+    "log_template_tokens": [
+      "17/03/16",
+      "20:27:13",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "35": {
+    "template": "<*> <*> INFO <*> Shutting down remote daemon.",
+    "size": 8,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Shutting",
+      "down",
+      "remote",
+      "daemon."
+    ]
+  },
+  "36": {
+    "template": "<*> <*> INFO <*> Remote daemon shut down; proceeding with flushing remote transports.",
+    "size": 7,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Remote",
+      "daemon",
+      "shut",
+      "down;",
+      "proceeding",
+      "with",
+      "flushing",
+      "remote",
+      "transports."
+    ]
+  },
+  "37": {
+    "template": "17/03/21 10:28:59 INFO <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/21",
+      "10:28:59",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "38": {
+    "template": "17/03/21 10:28:59 INFO executor.CoarseGrainedExecutorBackend: <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/21",
+      "10:28:59",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "39": {
+    "template": "<*> <*> WARN <*> Exception in connection from <*>",
+    "size": 11,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "WARN",
+      "<*>",
+      "Exception",
+      "in",
+      "connection",
+      "from",
+      "<*>"
+    ]
+  },
+  "40": {
+    "template": "java.io.IOException: Connection reset by peer",
+    "size": 20,
+    "log_template_tokens": [
+      "java.io.IOException:",
+      "Connection",
+      "reset",
+      "by",
+      "peer"
+    ]
+  },
+  "41": {
+    "template": "at <*> Method)",
+    "size": 69,
+    "log_template_tokens": [
+      "at",
+      "<*>",
+      "Method)"
+    ]
+  },
+  "42": {
+    "template": "at <*>",
+    "size": 1331,
+    "log_template_tokens": [
+      "at",
+      "<*>"
+    ]
+  },
+  "43": {
+    "template": "<*> <*> ERROR client.TransportResponseHandler: Still have 1 requests outstanding when connection from <*> is closed",
+    "size": 9,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "ERROR",
+      "client.TransportResponseHandler:",
+      "Still",
+      "have",
+      "1",
+      "requests",
+      "outstanding",
+      "when",
+      "connection",
+      "from",
+      "<*>",
+      "is",
+      "closed"
+    ]
+  },
+  "44": {
+    "template": "<*> <*> ERROR shuffle.OneForOneBlockFetcher: Failed while starting block fetches",
+    "size": 9,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "ERROR",
+      "shuffle.OneForOneBlockFetcher:",
+      "Failed",
+      "while",
+      "starting",
+      "block",
+      "fetches"
+    ]
+  },
+  "45": {
+    "template": "<*> <*> INFO shuffle.RetryingBlockFetcher: Retrying fetch <*> for 1 outstanding blocks after 5000 ms",
+    "size": 33,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "shuffle.RetryingBlockFetcher:",
+      "Retrying",
+      "fetch",
+      "<*>",
+      "for",
+      "1",
+      "outstanding",
+      "blocks",
+      "after",
+      "5000",
+      "ms"
+    ]
+  },
+  "46": {
+    "template": "<*> <*> INFO client.TransportClientFactory: Found inactive connection to <*> creating a new one.",
+    "size": 35,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "client.TransportClientFactory:",
+      "Found",
+      "inactive",
+      "connection",
+      "to",
+      "<*>",
+      "creating",
+      "a",
+      "new",
+      "one."
+    ]
+  },
+  "47": {
+    "template": "<*> <*> ERROR shuffle.RetryingBlockFetcher: Exception while beginning fetch of 1 outstanding blocks (after <*> retries)",
+    "size": 33,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "ERROR",
+      "shuffle.RetryingBlockFetcher:",
+      "Exception",
+      "while",
+      "beginning",
+      "fetch",
+      "of",
+      "1",
+      "outstanding",
+      "blocks",
+      "(after",
+      "<*>",
+      "retries)"
+    ]
+  },
+  "48": {
+    "template": "java.io.IOException: Failed to connect to <*>",
+    "size": 46,
+    "log_template_tokens": [
+      "java.io.IOException:",
+      "Failed",
+      "to",
+      "connect",
+      "to",
+      "<*>"
+    ]
+  },
+  "49": {
+    "template": "Caused by: java.net.ConnectException: Connection refused: <*>",
+    "size": 46,
+    "log_template_tokens": [
+      "Caused",
+      "by:",
+      "java.net.ConnectException:",
+      "Connection",
+      "refused:",
+      "<*>"
+    ]
+  },
+  "50": {
+    "template": "... <*> more",
+    "size": 50,
+    "log_template_tokens": [
+      "...",
+      "<*>",
+      "more"
+    ]
+  },
+  "51": {
+    "template": "<*> <*> WARN storage.BlockManager: Failed to fetch remote block <*> from <*> <*> <*> (failed attempt <*>",
+    "size": 11,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "WARN",
+      "storage.BlockManager:",
+      "Failed",
+      "to",
+      "fetch",
+      "remote",
+      "block",
+      "<*>",
+      "from",
+      "<*>",
+      "<*>",
+      "<*>",
+      "(failed",
+      "attempt",
+      "<*>"
+    ]
+  },
+  "52": {
+    "template": "<*> <*> INFO executor.Executor: Executor is trying to kill task <*> in stage 1.0 (TID <*>",
+    "size": 16,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "executor.Executor:",
+      "Executor",
+      "is",
+      "trying",
+      "to",
+      "kill",
+      "task",
+      "<*>",
+      "in",
+      "stage",
+      "1.0",
+      "(TID",
+      "<*>"
+    ]
+  },
+  "53": {
+    "template": "<*> <*> <*> executor.Executor: <*> <*> task <*> in stage 1.0 (TID <*>",
+    "size": 19,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "<*>",
+      "executor.Executor:",
+      "<*>",
+      "<*>",
+      "task",
+      "<*>",
+      "in",
+      "stage",
+      "1.0",
+      "(TID",
+      "<*>"
+    ]
+  },
+  "54": {
+    "template": "17/03/21 10:30:24 INFO <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/21",
+      "10:30:24",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "55": {
+    "template": "17/03/21 10:30:24 INFO <*> <*> <*> <*>",
+    "size": 3,
+    "log_template_tokens": [
+      "17/03/21",
+      "10:30:24",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "56": {
+    "template": "17/03/21 11:53:53 INFO <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/21",
+      "11:53:53",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "57": {
+    "template": "17/03/21 11:53:53 INFO executor.CoarseGrainedExecutorBackend: <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/21",
+      "11:53:53",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "58": {
+    "template": "<*> <*> ERROR executor.CoarseGrainedExecutorBackend: RECEIVED SIGNAL 15: SIGTERM",
+    "size": 7,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "ERROR",
+      "executor.CoarseGrainedExecutorBackend:",
+      "RECEIVED",
+      "SIGNAL",
+      "15:",
+      "SIGTERM"
+    ]
+  },
+  "59": {
+    "template": "<*> <*> INFO <*> Shutdown hook called",
+    "size": 20,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Shutdown",
+      "hook",
+      "called"
+    ]
+  },
+  "60": {
+    "template": "<*> <*> INFO <*> Deleting directory <*>",
+    "size": 14,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Deleting",
+      "directory",
+      "<*>"
+    ]
+  },
+  "61": {
+    "template": "org.apache.spark.api.python.PythonException: Traceback (most recent call last):",
+    "size": 3,
+    "log_template_tokens": [
+      "org.apache.spark.api.python.PythonException:",
+      "Traceback",
+      "(most",
+      "recent",
+      "call",
+      "last):"
+    ]
+  },
+  "62": {
+    "template": "File <*> line <*> in <*>",
+    "size": 99,
+    "log_template_tokens": [
+      "File",
+      "<*>",
+      "line",
+      "<*>",
+      "in",
+      "<*>"
+    ]
+  },
+  "63": {
+    "template": "process()",
+    "size": 1,
+    "log_template_tokens": [
+      "process()"
+    ]
+  },
+  "64": {
+    "template": "serializer.dump_stream(func(split_index, iterator), outfile)",
+    "size": 1,
+    "log_template_tokens": [
+      "serializer.dump_stream(func(split_index,",
+      "iterator),",
+      "outfile)"
+    ]
+  },
+  "65": {
+    "template": "for k, v in iterator:",
+    "size": 1,
+    "log_template_tokens": [
+      "for",
+      "k,",
+      "v",
+      "in",
+      "iterator:"
+    ]
+  },
+  "66": {
+    "template": "self._value = self.load(self._path)",
+    "size": 1,
+    "log_template_tokens": [
+      "self._value",
+      "=",
+      "self.load(self._path)"
+    ]
+  },
+  "67": {
+    "template": "with open(path, 'rb', 1 << 20) as f:",
+    "size": 1,
+    "log_template_tokens": [
+      "with",
+      "open(path,",
+      "'rb',",
+      "1",
+      "<<",
+      "20)",
+      "as",
+      "f:"
+    ]
+  },
+  "68": {
+    "template": "IOError: [Errno 2] No such file or directory: <*>",
+    "size": 9,
+    "log_template_tokens": [
+      "IOError:",
+      "[Errno",
+      "2]",
+      "No",
+      "such",
+      "file",
+      "or",
+      "directory:",
+      "<*>"
+    ]
+  },
+  "69": {
+    "template": "17/03/23 14:27:25 INFO <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/23",
+      "14:27:25",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "70": {
+    "template": "17/03/23 14:27:26 INFO executor.CoarseGrainedExecutorBackend: <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/23",
+      "14:27:26",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "71": {
+    "template": "17/03/21 09:53:08 INFO <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:53:08",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "72": {
+    "template": "17/03/21 09:53:09 INFO executor.CoarseGrainedExecutorBackend: <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:53:09",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "73": {
+    "template": "17/03/21 12:18:25 INFO <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/21",
+      "12:18:25",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "74": {
+    "template": "17/03/21 12:18:26 INFO executor.CoarseGrainedExecutorBackend: <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/21",
+      "12:18:26",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "75": {
+    "template": "<*> <*> INFO <*> Slf4jLogger started",
+    "size": 9,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Slf4jLogger",
+      "started"
+    ]
+  },
+  "76": {
+    "template": "<*> <*> INFO Remoting: Starting remoting",
+    "size": 9,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "Remoting:",
+      "Starting",
+      "remoting"
+    ]
+  },
+  "77": {
+    "template": "16/04/07 10:45:37 INFO executor.CoarseGrainedExecutorBackend: <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "16/04/07",
+      "10:45:37",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "78": {
+    "template": "16/04/07 10:46:04 ERROR storage.DiskBlockManager: Exception while deleting local spark dir: /opt/hdfs/nodemanager/usercache/curi/appcache/application_1448006111297_0137/blockmgr-2a4b09bf-53df-4934-b530-cf2931e85357",
+    "size": 1,
+    "log_template_tokens": [
+      "16/04/07",
+      "10:46:04",
+      "ERROR",
+      "storage.DiskBlockManager:",
+      "Exception",
+      "while",
+      "deleting",
+      "local",
+      "spark",
+      "dir:",
+      "/opt/hdfs/nodemanager/usercache/curi/appcache/application_1448006111297_0137/blockmgr-2a4b09bf-53df-4934-b530-cf2931e85357"
+    ]
+  },
+  "79": {
+    "template": "java.io.IOException: Failed to delete: /opt/hdfs/nodemanager/usercache/curi/appcache/application_1448006111297_0137/blockmgr-2a4b09bf-53df-4934-b530-cf2931e85357",
+    "size": 1,
+    "log_template_tokens": [
+      "java.io.IOException:",
+      "Failed",
+      "to",
+      "delete:",
+      "/opt/hdfs/nodemanager/usercache/curi/appcache/application_1448006111297_0137/blockmgr-2a4b09bf-53df-4934-b530-cf2931e85357"
+    ]
+  },
+  "80": {
+    "template": "16/04/07 10:46:04 INFO <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "16/04/07",
+      "10:46:04",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "81": {
+    "template": "<*> <*> INFO <*> Remoting shut down.",
+    "size": 5,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Remoting",
+      "shut",
+      "down."
+    ]
+  },
+  "82": {
+    "template": "17/03/14 22:35:52 INFO executor.CoarseGrainedExecutorBackend: <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/14",
+      "22:35:52",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "83": {
+    "template": "17/03/14 22:47:11 INFO <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/14",
+      "22:47:11",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "84": {
+    "template": "17/03/16 17:53:46 INFO executor.CoarseGrainedExecutorBackend: <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "17:53:46",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "85": {
+    "template": "17/03/16 20:33:32 INFO <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "20:33:32",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "86": {
+    "template": "<*> <*> INFO ApplicationMaster: ApplicationAttemptId: <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "ApplicationMaster:",
+      "ApplicationAttemptId:",
+      "<*>"
+    ]
+  },
+  "87": {
+    "template": "<*> <*> INFO ApplicationMaster: Starting the user application in a separate Thread",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "ApplicationMaster:",
+      "Starting",
+      "the",
+      "user",
+      "application",
+      "in",
+      "a",
+      "separate",
+      "Thread"
+    ]
+  },
+  "88": {
+    "template": "<*> <*> INFO ApplicationMaster: Waiting for spark context initialization",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "ApplicationMaster:",
+      "Waiting",
+      "for",
+      "spark",
+      "context",
+      "initialization"
+    ]
+  },
+  "89": {
+    "template": "<*> <*> INFO ApplicationMaster: Waiting for spark context initialization ...",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "ApplicationMaster:",
+      "Waiting",
+      "for",
+      "spark",
+      "context",
+      "initialization",
+      "..."
+    ]
+  },
+  "90": {
+    "template": "<*> <*> INFO SparkContext: Running Spark version 1.6.0",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "SparkContext:",
+      "Running",
+      "Spark",
+      "version",
+      "1.6.0"
+    ]
+  },
+  "91": {
+    "template": "17/03/16 17:46:37 INFO <*> <*> <*>",
+    "size": 6,
+    "log_template_tokens": [
+      "17/03/16",
+      "17:46:37",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "92": {
+    "template": "17/03/16 17:46:37 INFO <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "17:46:37",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "93": {
+    "template": "<*> <*> INFO Server: jetty-8.y.z-SNAPSHOT",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "Server:",
+      "jetty-8.y.z-SNAPSHOT"
+    ]
+  },
+  "94": {
+    "template": "<*> <*> INFO SparkUI: Started SparkUI at <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "SparkUI:",
+      "Started",
+      "SparkUI",
+      "at",
+      "<*>"
+    ]
+  },
+  "95": {
+    "template": "<*> <*> INFO BlockManagerMasterEndpoint: Registering block manager <*> with <*> GB RAM, <*> <*> <*>",
+    "size": 21,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "BlockManagerMasterEndpoint:",
+      "Registering",
+      "block",
+      "manager",
+      "<*>",
+      "with",
+      "<*>",
+      "GB",
+      "RAM,",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "96": {
+    "template": "<*> <*> INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnSchedulerBackend$YarnSchedulerEndpoint:",
+      "ApplicationMaster",
+      "registered",
+      "as",
+      "<*>"
+    ]
+  },
+  "97": {
+    "template": "<*> <*> INFO RMProxy: Connecting to ResourceManager at mesos-master-1/10.10.34.11:8030",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "RMProxy:",
+      "Connecting",
+      "to",
+      "ResourceManager",
+      "at",
+      "mesos-master-1/10.10.34.11:8030"
+    ]
+  },
+  "98": {
+    "template": "<*> <*> INFO YarnAllocator: Will request <*> executor containers, each with 8 cores and 22528 MB memory including 2048 MB overhead",
+    "size": 12,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnAllocator:",
+      "Will",
+      "request",
+      "<*>",
+      "executor",
+      "containers,",
+      "each",
+      "with",
+      "8",
+      "cores",
+      "and",
+      "22528",
+      "MB",
+      "memory",
+      "including",
+      "2048",
+      "MB",
+      "overhead"
+    ]
+  },
+  "99": {
+    "template": "<*> <*> INFO YarnAllocator: Container request (host: Any, capability: <memory:22528, vCores:8>)",
+    "size": 23,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnAllocator:",
+      "Container",
+      "request",
+      "(host:",
+      "Any,",
+      "capability:",
+      "<memory:22528,",
+      "vCores:8>)"
+    ]
+  },
+  "100": {
+    "template": "<*> <*> INFO ApplicationMaster: Started progress reporter thread with (heartbeat : 3000, initial allocation : 200) intervals",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "ApplicationMaster:",
+      "Started",
+      "progress",
+      "reporter",
+      "thread",
+      "with",
+      "(heartbeat",
+      ":",
+      "3000,",
+      "initial",
+      "allocation",
+      ":",
+      "200)",
+      "intervals"
+    ]
+  },
+  "101": {
+    "template": "<*> <*> INFO AMRMClientImpl: Received new token for : <*>",
+    "size": 26,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "AMRMClientImpl:",
+      "Received",
+      "new",
+      "token",
+      "for",
+      ":",
+      "<*>"
+    ]
+  },
+  "102": {
+    "template": "<*> <*> INFO YarnAllocator: Launching container <*> for on host <*>",
+    "size": 22,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnAllocator:",
+      "Launching",
+      "container",
+      "<*>",
+      "for",
+      "on",
+      "host",
+      "<*>"
+    ]
+  },
+  "103": {
+    "template": "<*> <*> INFO YarnAllocator: Launching ExecutorRunnable. driverUrl: <*> executorHostname: <*>",
+    "size": 22,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnAllocator:",
+      "Launching",
+      "ExecutorRunnable.",
+      "driverUrl:",
+      "<*>",
+      "executorHostname:",
+      "<*>"
+    ]
+  },
+  "104": {
+    "template": "17/03/16 17:46:38 INFO <*> <*> <*> <*>",
+    "size": 24,
+    "log_template_tokens": [
+      "17/03/16",
+      "17:46:38",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "105": {
+    "template": "<*> <*> INFO YarnAllocator: Received <*> containers from YARN, launching executors on <*> of them.",
+    "size": 18,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnAllocator:",
+      "Received",
+      "<*>",
+      "containers",
+      "from",
+      "YARN,",
+      "launching",
+      "executors",
+      "on",
+      "<*>",
+      "of",
+      "them."
+    ]
+  },
+  "106": {
+    "template": "<*> <*> INFO ExecutorRunnable: Prepared Local resources Map(__spark__.jar -> resource { scheme: \"hdfs\" host: \"10.10.34.11\" port: 9000 file: <*> } size: 109525492 timestamp: <*> type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: \"hdfs\" host: \"10.10.34.11\" port: 9000 file: <*> } size: 355358 timestamp: <*> type: FILE visibility: PRIVATE, py4j-0.9-src.zip -> resource { scheme: \"hdfs\" host: \"10.10.34.11\" port: 9000 file: <*> } size: 44846 timestamp: <*> type: FILE visibility: PRIVATE)",
+    "size": 22,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "ExecutorRunnable:",
+      "Prepared",
+      "Local",
+      "resources",
+      "Map(__spark__.jar",
+      "->",
+      "resource",
+      "{",
+      "scheme:",
+      "\"hdfs\"",
+      "host:",
+      "\"10.10.34.11\"",
+      "port:",
+      "9000",
+      "file:",
+      "<*>",
+      "}",
+      "size:",
+      "109525492",
+      "timestamp:",
+      "<*>",
+      "type:",
+      "FILE",
+      "visibility:",
+      "PRIVATE,",
+      "pyspark.zip",
+      "->",
+      "resource",
+      "{",
+      "scheme:",
+      "\"hdfs\"",
+      "host:",
+      "\"10.10.34.11\"",
+      "port:",
+      "9000",
+      "file:",
+      "<*>",
+      "}",
+      "size:",
+      "355358",
+      "timestamp:",
+      "<*>",
+      "type:",
+      "FILE",
+      "visibility:",
+      "PRIVATE,",
+      "py4j-0.9-src.zip",
+      "->",
+      "resource",
+      "{",
+      "scheme:",
+      "\"hdfs\"",
+      "host:",
+      "\"10.10.34.11\"",
+      "port:",
+      "9000",
+      "file:",
+      "<*>",
+      "}",
+      "size:",
+      "44846",
+      "timestamp:",
+      "<*>",
+      "type:",
+      "FILE",
+      "visibility:",
+      "PRIVATE)"
+    ]
+  },
+  "107": {
+    "template": "<*> <*> INFO ExecutorRunnable:",
+    "size": 22,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "ExecutorRunnable:"
+    ]
+  },
+  "108": {
+    "template": "===============================================================================",
+    "size": 44,
+    "log_template_tokens": [
+      "==============================================================================="
+    ]
+  },
+  "109": {
+    "template": "YARN executor launch context:",
+    "size": 22,
+    "log_template_tokens": [
+      "YARN",
+      "executor",
+      "launch",
+      "context:"
+    ]
+  },
+  "110": {
+    "template": "env:",
+    "size": 22,
+    "log_template_tokens": [
+      "env:"
+    ]
+  },
+  "111": {
+    "template": "CLASSPATH -> {{PWD}}<CPS>{{PWD}}/__spark__.jar<CPS>$HADOOP_CONF_DIR<CPS>$HADOOP_COMMON_HOME/share/hadoop/common/*<CPS>$HADOOP_COMMON_HOME/share/hadoop/common/lib/*<CPS>$HADOOP_HDFS_HOME/share/hadoop/hdfs/*<CPS>$HADOOP_HDFS_HOME/share/hadoop/hdfs/lib/*<CPS>$HADOOP_YARN_HOME/share/hadoop/yarn/*<CPS>$HADOOP_YARN_HOME/share/hadoop/yarn/lib/*<CPS>$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/*<CPS>$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/lib/*<CPS>/usr/local/hadoop/etc/hadoop:/usr/local/hadoop/share/hadoop/common/lib/*:/usr/local/hadoop/share/hadoop/common/*:/usr/local/hadoop/share/hadoop/hdfs:/usr/local/hadoop/share/hadoop/hdfs/lib/*:/usr/local/hadoop/share/hadoop/hdfs/*:/usr/local/hadoop/share/hadoop/yarn/lib/*:/usr/local/hadoop/share/hadoop/yarn/*:/usr/local/hadoop/share/hadoop/mapreduce/lib/*:/usr/local/hadoop/share/hadoop/mapreduce/*:/contrib/capacity-scheduler/*.jar",
+    "size": 22,
+    "log_template_tokens": [
+      "CLASSPATH",
+      "->",
+      "{{PWD}}<CPS>{{PWD}}/__spark__.jar<CPS>$HADOOP_CONF_DIR<CPS>$HADOOP_COMMON_HOME/share/hadoop/common/*<CPS>$HADOOP_COMMON_HOME/share/hadoop/common/lib/*<CPS>$HADOOP_HDFS_HOME/share/hadoop/hdfs/*<CPS>$HADOOP_HDFS_HOME/share/hadoop/hdfs/lib/*<CPS>$HADOOP_YARN_HOME/share/hadoop/yarn/*<CPS>$HADOOP_YARN_HOME/share/hadoop/yarn/lib/*<CPS>$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/*<CPS>$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/lib/*<CPS>/usr/local/hadoop/etc/hadoop:/usr/local/hadoop/share/hadoop/common/lib/*:/usr/local/hadoop/share/hadoop/common/*:/usr/local/hadoop/share/hadoop/hdfs:/usr/local/hadoop/share/hadoop/hdfs/lib/*:/usr/local/hadoop/share/hadoop/hdfs/*:/usr/local/hadoop/share/hadoop/yarn/lib/*:/usr/local/hadoop/share/hadoop/yarn/*:/usr/local/hadoop/share/hadoop/mapreduce/lib/*:/usr/local/hadoop/share/hadoop/mapreduce/*:/contrib/capacity-scheduler/*.jar"
+    ]
+  },
+  "112": {
+    "template": "SPARK_LOG_URL_STDERR -> <*>",
+    "size": 22,
+    "log_template_tokens": [
+      "SPARK_LOG_URL_STDERR",
+      "->",
+      "<*>"
+    ]
+  },
+  "113": {
+    "template": "SPARK_DIST_CLASSPATH -> /usr/local/hadoop/etc/hadoop:/usr/local/hadoop/share/hadoop/common/lib/*:/usr/local/hadoop/share/hadoop/common/*:/usr/local/hadoop/share/hadoop/hdfs:/usr/local/hadoop/share/hadoop/hdfs/lib/*:/usr/local/hadoop/share/hadoop/hdfs/*:/usr/local/hadoop/share/hadoop/yarn/lib/*:/usr/local/hadoop/share/hadoop/yarn/*:/usr/local/hadoop/share/hadoop/mapreduce/lib/*:/usr/local/hadoop/share/hadoop/mapreduce/*:/contrib/capacity-scheduler/*.jar",
+    "size": 22,
+    "log_template_tokens": [
+      "SPARK_DIST_CLASSPATH",
+      "->",
+      "/usr/local/hadoop/etc/hadoop:/usr/local/hadoop/share/hadoop/common/lib/*:/usr/local/hadoop/share/hadoop/common/*:/usr/local/hadoop/share/hadoop/hdfs:/usr/local/hadoop/share/hadoop/hdfs/lib/*:/usr/local/hadoop/share/hadoop/hdfs/*:/usr/local/hadoop/share/hadoop/yarn/lib/*:/usr/local/hadoop/share/hadoop/yarn/*:/usr/local/hadoop/share/hadoop/mapreduce/lib/*:/usr/local/hadoop/share/hadoop/mapreduce/*:/contrib/capacity-scheduler/*.jar"
+    ]
+  },
+  "114": {
+    "template": "SPARK_YARN_STAGING_DIR -> <*>",
+    "size": 22,
+    "log_template_tokens": [
+      "SPARK_YARN_STAGING_DIR",
+      "->",
+      "<*>"
+    ]
+  },
+  "115": {
+    "template": "SPARK_YARN_CACHE_FILES_FILE_SIZES -> 109525492,355358,44846",
+    "size": 22,
+    "log_template_tokens": [
+      "SPARK_YARN_CACHE_FILES_FILE_SIZES",
+      "->",
+      "109525492,355358,44846"
+    ]
+  },
+  "116": {
+    "template": "SPARK_USER -> curi",
+    "size": 22,
+    "log_template_tokens": [
+      "SPARK_USER",
+      "->",
+      "curi"
+    ]
+  },
+  "117": {
+    "template": "SPARK_YARN_CACHE_FILES_VISIBILITIES -> PRIVATE,PRIVATE,PRIVATE",
+    "size": 22,
+    "log_template_tokens": [
+      "SPARK_YARN_CACHE_FILES_VISIBILITIES",
+      "->",
+      "PRIVATE,PRIVATE,PRIVATE"
+    ]
+  },
+  "118": {
+    "template": "SPARK_YARN_MODE -> true",
+    "size": 22,
+    "log_template_tokens": [
+      "SPARK_YARN_MODE",
+      "->",
+      "true"
+    ]
+  },
+  "119": {
+    "template": "SPARK_YARN_CACHE_FILES_TIME_STAMPS -> <*>",
+    "size": 22,
+    "log_template_tokens": [
+      "SPARK_YARN_CACHE_FILES_TIME_STAMPS",
+      "->",
+      "<*>"
+    ]
+  },
+  "120": {
+    "template": "PYTHONPATH -> {{PWD}}/pyspark.zip<CPS>{{PWD}}/py4j-0.9-src.zip",
+    "size": 22,
+    "log_template_tokens": [
+      "PYTHONPATH",
+      "->",
+      "{{PWD}}/pyspark.zip<CPS>{{PWD}}/py4j-0.9-src.zip"
+    ]
+  },
+  "121": {
+    "template": "SPARK_LOG_URL_STDOUT -> <*>",
+    "size": 22,
+    "log_template_tokens": [
+      "SPARK_LOG_URL_STDOUT",
+      "->",
+      "<*>"
+    ]
+  },
+  "122": {
+    "template": "SPARK_YARN_CACHE_FILES -> <*>",
+    "size": 22,
+    "log_template_tokens": [
+      "SPARK_YARN_CACHE_FILES",
+      "->",
+      "<*>"
+    ]
+  },
+  "123": {
+    "template": "command:",
+    "size": 22,
+    "log_template_tokens": [
+      "command:"
+    ]
+  },
+  "124": {
+    "template": "{{JAVA_HOME}}/bin/java -server -XX:OnOutOfMemoryError='kill %p' -Xms20480m -Xmx20480m -Djava.io.tmpdir={{PWD}}/tmp <*> <*> '-Dspark.akka.frameSize=2000' -Dspark.yarn.app.container.log.dir=<LOG_DIR> -XX:MaxPermSize=256m org.apache.spark.executor.CoarseGrainedExecutorBackend --driver-url <*> --executor-id <*> --hostname <*> --cores 8 --app-id <*> --user-class-path file:$PWD/__app__.jar 1> <LOG_DIR>/stdout 2> <LOG_DIR>/stderr",
+    "size": 22,
+    "log_template_tokens": [
+      "{{JAVA_HOME}}/bin/java",
+      "-server",
+      "-XX:OnOutOfMemoryError='kill",
+      "%p'",
+      "-Xms20480m",
+      "-Xmx20480m",
+      "-Djava.io.tmpdir={{PWD}}/tmp",
+      "<*>",
+      "<*>",
+      "'-Dspark.akka.frameSize=2000'",
+      "-Dspark.yarn.app.container.log.dir=<LOG_DIR>",
+      "-XX:MaxPermSize=256m",
+      "org.apache.spark.executor.CoarseGrainedExecutorBackend",
+      "--driver-url",
+      "<*>",
+      "--executor-id",
+      "<*>",
+      "--hostname",
+      "<*>",
+      "--cores",
+      "8",
+      "--app-id",
+      "<*>",
+      "--user-class-path",
+      "file:$PWD/__app__.jar",
+      "1>",
+      "<LOG_DIR>/stdout",
+      "2>",
+      "<LOG_DIR>/stderr"
+    ]
+  },
+  "125": {
+    "template": "<*> <*> INFO ContainerManagementProtocolProxy: Opening proxy : <*>",
+    "size": 22,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "ContainerManagementProtocolProxy:",
+      "Opening",
+      "proxy",
+      ":",
+      "<*>"
+    ]
+  },
+  "126": {
+    "template": "<*> <*> INFO YarnClusterSchedulerBackend: Registered executor NettyRpcEndpointRef(null) <*> with ID <*>",
+    "size": 19,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnClusterSchedulerBackend:",
+      "Registered",
+      "executor",
+      "NettyRpcEndpointRef(null)",
+      "<*>",
+      "with",
+      "ID",
+      "<*>"
+    ]
+  },
+  "127": {
+    "template": "<*> <*> INFO YarnClusterSchedulerBackend: SchedulerBackend is ready for scheduling beginning after <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnClusterSchedulerBackend:",
+      "SchedulerBackend",
+      "is",
+      "ready",
+      "for",
+      "scheduling",
+      "beginning",
+      "after",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "128": {
+    "template": "<*> <*> INFO YarnClusterScheduler: YarnClusterScheduler.postStartHook done",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnClusterScheduler:",
+      "YarnClusterScheduler.postStartHook",
+      "done"
+    ]
+  },
+  "129": {
+    "template": "17/03/16 <*> INFO BlockManagerInfo: <*> <*> <*> <*> <*> <*> (size: <*> KB, free: <*> GB)",
+    "size": 44,
+    "log_template_tokens": [
+      "17/03/16",
+      "<*>",
+      "INFO",
+      "BlockManagerInfo:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "(size:",
+      "<*>",
+      "KB,",
+      "free:",
+      "<*>",
+      "GB)"
+    ]
+  },
+  "130": {
+    "template": "<*> <*> INFO SparkContext: Created broadcast <*> from <*> at <*>",
+    "size": 70,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "SparkContext:",
+      "Created",
+      "broadcast",
+      "<*>",
+      "from",
+      "<*>",
+      "at",
+      "<*>"
+    ]
+  },
+  "131": {
+    "template": "<*> <*> INFO FileInputFormat: Total input paths to process : 1",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "FileInputFormat:",
+      "Total",
+      "input",
+      "paths",
+      "to",
+      "process",
+      ":",
+      "1"
+    ]
+  },
+  "132": {
+    "template": "<*> <*> INFO SparkContext: Starting job: collect at <*>",
+    "size": 23,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "SparkContext:",
+      "Starting",
+      "job:",
+      "collect",
+      "at",
+      "<*>"
+    ]
+  },
+  "133": {
+    "template": "<*> <*> INFO DAGScheduler: Got job <*> (collect at <*> with <*> output partitions",
+    "size": 23,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "DAGScheduler:",
+      "Got",
+      "job",
+      "<*>",
+      "(collect",
+      "at",
+      "<*>",
+      "with",
+      "<*>",
+      "output",
+      "partitions"
+    ]
+  },
+  "134": {
+    "template": "<*> <*> INFO DAGScheduler: Final stage: ResultStage <*> (collect at <*>",
+    "size": 23,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "DAGScheduler:",
+      "Final",
+      "stage:",
+      "ResultStage",
+      "<*>",
+      "(collect",
+      "at",
+      "<*>"
+    ]
+  },
+  "135": {
+    "template": "<*> <*> INFO DAGScheduler: Parents of final stage: List()",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "DAGScheduler:",
+      "Parents",
+      "of",
+      "final",
+      "stage:",
+      "List()"
+    ]
+  },
+  "136": {
+    "template": "17/03/16 <*> INFO DAGScheduler: <*> <*> <*>",
+    "size": 21,
+    "log_template_tokens": [
+      "17/03/16",
+      "<*>",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "137": {
+    "template": "<*> <*> INFO DAGScheduler: Submitting <*> <*> <*> at <*> at <*> which has no missing parents",
+    "size": 43,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "DAGScheduler:",
+      "Submitting",
+      "<*>",
+      "<*>",
+      "<*>",
+      "at",
+      "<*>",
+      "at",
+      "<*>",
+      "which",
+      "has",
+      "no",
+      "missing",
+      "parents"
+    ]
+  },
+  "138": {
+    "template": "<*> <*> INFO DAGScheduler: Submitting <*> missing tasks from <*> <*> <*> at <*> at <*>",
+    "size": 43,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "DAGScheduler:",
+      "Submitting",
+      "<*>",
+      "missing",
+      "tasks",
+      "from",
+      "<*>",
+      "<*>",
+      "<*>",
+      "at",
+      "<*>",
+      "at",
+      "<*>"
+    ]
+  },
+  "139": {
+    "template": "<*> <*> INFO YarnClusterScheduler: Adding task set <*> with <*> tasks",
+    "size": 43,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnClusterScheduler:",
+      "Adding",
+      "task",
+      "set",
+      "<*>",
+      "with",
+      "<*>",
+      "tasks"
+    ]
+  },
+  "140": {
+    "template": "<*> <*> INFO TaskSetManager: Starting task <*> in stage <*> (TID <*> <*> partition <*> <*> bytes)",
+    "size": 2034,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "TaskSetManager:",
+      "Starting",
+      "task",
+      "<*>",
+      "in",
+      "stage",
+      "<*>",
+      "(TID",
+      "<*>",
+      "<*>",
+      "partition",
+      "<*>",
+      "<*>",
+      "bytes)"
+    ]
+  },
+  "141": {
+    "template": "<*> <*> INFO TaskSetManager: Finished task <*> in stage <*> (TID <*> in <*> ms on <*> <*>",
+    "size": 1924,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "TaskSetManager:",
+      "Finished",
+      "task",
+      "<*>",
+      "in",
+      "stage",
+      "<*>",
+      "(TID",
+      "<*>",
+      "in",
+      "<*>",
+      "ms",
+      "on",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "142": {
+    "template": "17/03/16 17:46:47 INFO DAGScheduler: <*> 0 <*> <*> <*> <*> <*> <*> s",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "17:46:47",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "0",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "s"
+    ]
+  },
+  "143": {
+    "template": "<*> <*> INFO YarnClusterScheduler: Removed TaskSet <*> whose tasks have all completed, from pool",
+    "size": 42,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnClusterScheduler:",
+      "Removed",
+      "TaskSet",
+      "<*>",
+      "whose",
+      "tasks",
+      "have",
+      "all",
+      "completed,",
+      "from",
+      "pool"
+    ]
+  },
+  "144": {
+    "template": "<*> <*> INFO BlockManagerInfo: Added <*> in memory on <*> (size: <*> <*> free: <*> GB)",
+    "size": 27040,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "BlockManagerInfo:",
+      "Added",
+      "<*>",
+      "in",
+      "memory",
+      "on",
+      "<*>",
+      "(size:",
+      "<*>",
+      "<*>",
+      "free:",
+      "<*>",
+      "GB)"
+    ]
+  },
+  "145": {
+    "template": "17/03/16 17:54:18 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "17:54:18",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "146": {
+    "template": "<*> <*> INFO DAGScheduler: Missing parents: List(ShuffleMapStage <*>",
+    "size": 21,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "DAGScheduler:",
+      "Missing",
+      "parents:",
+      "List(ShuffleMapStage",
+      "<*>"
+    ]
+  },
+  "147": {
+    "template": "<*> <*> WARN TaskSetManager: Stage <*> contains a task of very large size <*> KB). The maximum recommended task size is 100 KB.",
+    "size": 21,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "WARN",
+      "TaskSetManager:",
+      "Stage",
+      "<*>",
+      "contains",
+      "a",
+      "task",
+      "of",
+      "very",
+      "large",
+      "size",
+      "<*>",
+      "KB).",
+      "The",
+      "maximum",
+      "recommended",
+      "task",
+      "size",
+      "is",
+      "100",
+      "KB."
+    ]
+  },
+  "148": {
+    "template": "<*> <*> INFO DAGScheduler: <*> <*> <*> at <*> finished in <*> s",
+    "size": 41,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "at",
+      "<*>",
+      "finished",
+      "in",
+      "<*>",
+      "s"
+    ]
+  },
+  "149": {
+    "template": "17/03/16 <*> INFO DAGScheduler: looking for newly runnable stages",
+    "size": 20,
+    "log_template_tokens": [
+      "17/03/16",
+      "<*>",
+      "INFO",
+      "DAGScheduler:",
+      "looking",
+      "for",
+      "newly",
+      "runnable",
+      "stages"
+    ]
+  },
+  "150": {
+    "template": "17/03/16 <*> INFO DAGScheduler: <*> Set()",
+    "size": 40,
+    "log_template_tokens": [
+      "17/03/16",
+      "<*>",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "Set()"
+    ]
+  },
+  "151": {
+    "template": "17/03/16 <*> INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle <*> to <*>",
+    "size": 117,
+    "log_template_tokens": [
+      "17/03/16",
+      "<*>",
+      "INFO",
+      "MapOutputTrackerMasterEndpoint:",
+      "Asked",
+      "to",
+      "send",
+      "map",
+      "output",
+      "locations",
+      "for",
+      "shuffle",
+      "<*>",
+      "to",
+      "<*>"
+    ]
+  },
+  "152": {
+    "template": "17/03/16 <*> INFO MapOutputTrackerMaster: Size of output statuses for shuffle <*> is <*> bytes",
+    "size": 39,
+    "log_template_tokens": [
+      "17/03/16",
+      "<*>",
+      "INFO",
+      "MapOutputTrackerMaster:",
+      "Size",
+      "of",
+      "output",
+      "statuses",
+      "for",
+      "shuffle",
+      "<*>",
+      "is",
+      "<*>",
+      "bytes"
+    ]
+  },
+  "153": {
+    "template": "<*> <*> INFO DAGScheduler: Job <*> <*> collect at <*> took <*> s",
+    "size": 22,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "DAGScheduler:",
+      "Job",
+      "<*>",
+      "<*>",
+      "collect",
+      "at",
+      "<*>",
+      "took",
+      "<*>",
+      "s"
+    ]
+  },
+  "154": {
+    "template": "17/03/16 <*> INFO <*> Removing RDD <*> from persistence list",
+    "size": 40,
+    "log_template_tokens": [
+      "17/03/16",
+      "<*>",
+      "INFO",
+      "<*>",
+      "Removing",
+      "RDD",
+      "<*>",
+      "from",
+      "persistence",
+      "list"
+    ]
+  },
+  "155": {
+    "template": "<*> <*> INFO ContextCleaner: Cleaned <*> <*>",
+    "size": 56,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "ContextCleaner:",
+      "Cleaned",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "156": {
+    "template": "17/03/16 18:02:02 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "18:02:02",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "157": {
+    "template": "17/03/16 18:09:49 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "18:09:49",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "158": {
+    "template": "<*> <*> INFO BlockManagerInfo: Removed <*> on <*> in memory (size: <*> <*> free: <*> GB)",
+    "size": 12202,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "BlockManagerInfo:",
+      "Removed",
+      "<*>",
+      "on",
+      "<*>",
+      "in",
+      "memory",
+      "(size:",
+      "<*>",
+      "<*>",
+      "free:",
+      "<*>",
+      "GB)"
+    ]
+  },
+  "159": {
+    "template": "17/03/16 18:17:46 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "18:17:46",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "160": {
+    "template": "17/03/16 18:25:37 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "18:25:37",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "161": {
+    "template": "17/03/16 18:33:32 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "18:33:32",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "162": {
+    "template": "17/03/16 18:41:27 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "18:41:27",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "163": {
+    "template": "17/03/16 18:49:28 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "18:49:28",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "164": {
+    "template": "17/03/16 18:57:23 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "18:57:23",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "165": {
+    "template": "17/03/16 19:05:22 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "19:05:22",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "166": {
+    "template": "17/03/16 19:13:13 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "19:13:13",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "167": {
+    "template": "17/03/16 19:21:13 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "19:21:13",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "168": {
+    "template": "17/03/16 19:29:14 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "19:29:14",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "169": {
+    "template": "17/03/16 19:37:17 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "19:37:17",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "170": {
+    "template": "17/03/16 19:45:20 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "19:45:20",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "171": {
+    "template": "17/03/16 19:53:27 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "19:53:27",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "172": {
+    "template": "17/03/16 20:01:28 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "20:01:28",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "173": {
+    "template": "17/03/16 20:09:29 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "20:09:29",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "174": {
+    "template": "<*> <*> INFO YarnClusterSchedulerBackend: Disabling executor <*>",
+    "size": 11,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnClusterSchedulerBackend:",
+      "Disabling",
+      "executor",
+      "<*>"
+    ]
+  },
+  "175": {
+    "template": "<*> <*> INFO DAGScheduler: Executor lost: <*> (epoch <*>",
+    "size": 11,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "DAGScheduler:",
+      "Executor",
+      "lost:",
+      "<*>",
+      "(epoch",
+      "<*>"
+    ]
+  },
+  "176": {
+    "template": "<*> <*> INFO BlockManagerMasterEndpoint: Trying to remove executor <*> from BlockManagerMaster.",
+    "size": 11,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "BlockManagerMasterEndpoint:",
+      "Trying",
+      "to",
+      "remove",
+      "executor",
+      "<*>",
+      "from",
+      "BlockManagerMaster."
+    ]
+  },
+  "177": {
+    "template": "<*> <*> INFO YarnAllocator: Completed container <*> on host: <*> (state: COMPLETE, exit status: <*>",
+    "size": 11,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnAllocator:",
+      "Completed",
+      "container",
+      "<*>",
+      "on",
+      "host:",
+      "<*>",
+      "(state:",
+      "COMPLETE,",
+      "exit",
+      "status:",
+      "<*>"
+    ]
+  },
+  "178": {
+    "template": "<*> <*> INFO BlockManagerMasterEndpoint: Removing block manager <*> <*> <*>",
+    "size": 11,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "BlockManagerMasterEndpoint:",
+      "Removing",
+      "block",
+      "manager",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "179": {
+    "template": "<*> <*> INFO BlockManagerMaster: Removed <*> successfully in removeExecutor",
+    "size": 11,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "BlockManagerMaster:",
+      "Removed",
+      "<*>",
+      "successfully",
+      "in",
+      "removeExecutor"
+    ]
+  },
+  "180": {
+    "template": "<*> <*> WARN <*> Container killed by YARN for exceeding memory limits. <*> GB of <*> GB <*> memory used. Consider boosting spark.yarn.executor.memoryOverhead.",
+    "size": 22,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "WARN",
+      "<*>",
+      "Container",
+      "killed",
+      "by",
+      "YARN",
+      "for",
+      "exceeding",
+      "memory",
+      "limits.",
+      "<*>",
+      "GB",
+      "of",
+      "<*>",
+      "GB",
+      "<*>",
+      "memory",
+      "used.",
+      "Consider",
+      "boosting",
+      "spark.yarn.executor.memoryOverhead."
+    ]
+  },
+  "181": {
+    "template": "<*> <*> ERROR YarnClusterScheduler: Lost executor <*> on <*> Container killed by YARN for exceeding memory limits. <*> GB of <*> GB <*> memory used. Consider boosting spark.yarn.executor.memoryOverhead.",
+    "size": 11,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "ERROR",
+      "YarnClusterScheduler:",
+      "Lost",
+      "executor",
+      "<*>",
+      "on",
+      "<*>",
+      "Container",
+      "killed",
+      "by",
+      "YARN",
+      "for",
+      "exceeding",
+      "memory",
+      "limits.",
+      "<*>",
+      "GB",
+      "of",
+      "<*>",
+      "GB",
+      "<*>",
+      "memory",
+      "used.",
+      "Consider",
+      "boosting",
+      "spark.yarn.executor.memoryOverhead."
+    ]
+  },
+  "182": {
+    "template": "<*> <*> WARN TaskSetManager: Lost task <*> in stage <*> (TID <*> <*> ExecutorLostFailure (executor <*> exited caused by one of the running tasks) Reason: Container killed by YARN for exceeding memory limits. <*> GB of <*> GB <*> memory used. Consider boosting spark.yarn.executor.memoryOverhead.",
+    "size": 88,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "WARN",
+      "TaskSetManager:",
+      "Lost",
+      "task",
+      "<*>",
+      "in",
+      "stage",
+      "<*>",
+      "(TID",
+      "<*>",
+      "<*>",
+      "ExecutorLostFailure",
+      "(executor",
+      "<*>",
+      "exited",
+      "caused",
+      "by",
+      "one",
+      "of",
+      "the",
+      "running",
+      "tasks)",
+      "Reason:",
+      "Container",
+      "killed",
+      "by",
+      "YARN",
+      "for",
+      "exceeding",
+      "memory",
+      "limits.",
+      "<*>",
+      "GB",
+      "of",
+      "<*>",
+      "GB",
+      "<*>",
+      "memory",
+      "used.",
+      "Consider",
+      "boosting",
+      "spark.yarn.executor.memoryOverhead."
+    ]
+  },
+  "183": {
+    "template": "<*> <*> INFO YarnClusterSchedulerBackend: Asked to remove non-existent executor <*>",
+    "size": 11,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnClusterSchedulerBackend:",
+      "Asked",
+      "to",
+      "remove",
+      "non-existent",
+      "executor",
+      "<*>"
+    ]
+  },
+  "184": {
+    "template": "17/03/16 20:10:05 INFO <*> <*> <*> <*>",
+    "size": 4,
+    "log_template_tokens": [
+      "17/03/16",
+      "20:10:05",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "185": {
+    "template": "17/03/16 20:17:29 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "20:17:29",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "186": {
+    "template": "17/03/16 20:25:06 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/16",
+      "20:25:06",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "187": {
+    "template": "<*> <*> ERROR ApplicationMaster: User application exited with status 1",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "ERROR",
+      "ApplicationMaster:",
+      "User",
+      "application",
+      "exited",
+      "with",
+      "status",
+      "1"
+    ]
+  },
+  "188": {
+    "template": "<*> <*> INFO ApplicationMaster: Final app status: FAILED, exitCode: 1, (reason: User application exited with status 1)",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "ApplicationMaster:",
+      "Final",
+      "app",
+      "status:",
+      "FAILED,",
+      "exitCode:",
+      "1,",
+      "(reason:",
+      "User",
+      "application",
+      "exited",
+      "with",
+      "status",
+      "1)"
+    ]
+  },
+  "189": {
+    "template": "<*> <*> INFO SparkContext: Invoking stop() from shutdown hook",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "SparkContext:",
+      "Invoking",
+      "stop()",
+      "from",
+      "shutdown",
+      "hook"
+    ]
+  },
+  "190": {
+    "template": "17/03/16 20:26:27 INFO <*> <*> <*>",
+    "size": 30,
+    "log_template_tokens": [
+      "17/03/16",
+      "20:26:27",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "191": {
+    "template": "<*> <*> INFO SparkUI: Stopped Spark web UI at <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "SparkUI:",
+      "Stopped",
+      "Spark",
+      "web",
+      "UI",
+      "at",
+      "<*>"
+    ]
+  },
+  "192": {
+    "template": "<*> <*> INFO YarnClusterSchedulerBackend: Shutting down all executors",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnClusterSchedulerBackend:",
+      "Shutting",
+      "down",
+      "all",
+      "executors"
+    ]
+  },
+  "193": {
+    "template": "<*> <*> INFO YarnClusterSchedulerBackend: Asking each executor to shut down",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "YarnClusterSchedulerBackend:",
+      "Asking",
+      "each",
+      "executor",
+      "to",
+      "shut",
+      "down"
+    ]
+  },
+  "194": {
+    "template": "<*> <*> INFO SparkContext: Successfully stopped SparkContext",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "SparkContext:",
+      "Successfully",
+      "stopped",
+      "SparkContext"
+    ]
+  },
+  "195": {
+    "template": "<*> <*> INFO ApplicationMaster: Unregistering ApplicationMaster with FAILED (diag message: User application exited with status 1)",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "ApplicationMaster:",
+      "Unregistering",
+      "ApplicationMaster",
+      "with",
+      "FAILED",
+      "(diag",
+      "message:",
+      "User",
+      "application",
+      "exited",
+      "with",
+      "status",
+      "1)"
+    ]
+  },
+  "196": {
+    "template": "<*> <*> INFO AMRMClientImpl: Waiting for application to be successfully unregistered.",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "AMRMClientImpl:",
+      "Waiting",
+      "for",
+      "application",
+      "to",
+      "be",
+      "successfully",
+      "unregistered."
+    ]
+  },
+  "197": {
+    "template": "<*> <*> INFO ApplicationMaster: Deleting staging directory <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "<*>",
+      "<*>",
+      "INFO",
+      "ApplicationMaster:",
+      "Deleting",
+      "staging",
+      "directory",
+      "<*>"
+    ]
+  },
+  "198": {
+    "template": "17/03/21 09:28:46 INFO <*> <*> <*>",
+    "size": 6,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:28:46",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "199": {
+    "template": "17/03/21 09:28:46 INFO <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:28:46",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "200": {
+    "template": "17/03/21 09:28:47 INFO <*> <*> <*> <*>",
+    "size": 24,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:28:47",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "201": {
+    "template": "Exception in thread <*> java.lang.Error: org.apache.spark.SparkException: Exception while starting container <*> on host <*>",
+    "size": 3,
+    "log_template_tokens": [
+      "Exception",
+      "in",
+      "thread",
+      "<*>",
+      "java.lang.Error:",
+      "org.apache.spark.SparkException:",
+      "Exception",
+      "while",
+      "starting",
+      "container",
+      "<*>",
+      "on",
+      "host",
+      "<*>"
+    ]
+  },
+  "202": {
+    "template": "Caused by: org.apache.spark.SparkException: Exception while starting container <*> on host <*>",
+    "size": 3,
+    "log_template_tokens": [
+      "Caused",
+      "by:",
+      "org.apache.spark.SparkException:",
+      "Exception",
+      "while",
+      "starting",
+      "container",
+      "<*>",
+      "on",
+      "host",
+      "<*>"
+    ]
+  },
+  "203": {
+    "template": "Caused by: org.apache.hadoop.yarn.exceptions.YarnException: Unauthorized request to start container.",
+    "size": 3,
+    "log_template_tokens": [
+      "Caused",
+      "by:",
+      "org.apache.hadoop.yarn.exceptions.YarnException:",
+      "Unauthorized",
+      "request",
+      "to",
+      "start",
+      "container."
+    ]
+  },
+  "204": {
+    "template": "This token is expired. current time is <*> found <*>",
+    "size": 3,
+    "log_template_tokens": [
+      "This",
+      "token",
+      "is",
+      "expired.",
+      "current",
+      "time",
+      "is",
+      "<*>",
+      "found",
+      "<*>"
+    ]
+  },
+  "205": {
+    "template": "Note: System times on machines may be out of sync. Check system time and time zones.",
+    "size": 3,
+    "log_template_tokens": [
+      "Note:",
+      "System",
+      "times",
+      "on",
+      "machines",
+      "may",
+      "be",
+      "out",
+      "of",
+      "sync.",
+      "Check",
+      "system",
+      "time",
+      "and",
+      "time",
+      "zones."
+    ]
+  },
+  "206": {
+    "template": "17/03/21 09:29:17 INFO DAGScheduler: Missing parents: List()",
+    "size": 1,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:29:17",
+      "INFO",
+      "DAGScheduler:",
+      "Missing",
+      "parents:",
+      "List()"
+    ]
+  },
+  "207": {
+    "template": "17/03/21 09:37:18 INFO DAGScheduler: <*> <*> <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:37:18",
+      "INFO",
+      "DAGScheduler:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "208": {
+    "template": "17/03/21 09:38:40 INFO <*> <*> <*> <*>",
+    "size": 4,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:38:40",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "209": {
+    "template": "17/03/21 09:38:48 WARN TaskSetManager: Lost task 16.0 in stage 1.0 (TID 18, mesos-slave-19): org.apache.spark.api.python.PythonException: Traceback (most recent call last):",
+    "size": 1,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:38:48",
+      "WARN",
+      "TaskSetManager:",
+      "Lost",
+      "task",
+      "16.0",
+      "in",
+      "stage",
+      "1.0",
+      "(TID",
+      "18,",
+      "mesos-slave-19):",
+      "org.apache.spark.api.python.PythonException:",
+      "Traceback",
+      "(most",
+      "recent",
+      "call",
+      "last):"
+    ]
+  },
+  "210": {
+    "template": "17/03/21 09:38:48 INFO TaskSetManager: Lost task <*> in stage 1.0 (TID <*> on executor mesos-slave-19: org.apache.spark.api.python.PythonException (Traceback (most recent call last):",
+    "size": 5,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:38:48",
+      "INFO",
+      "TaskSetManager:",
+      "Lost",
+      "task",
+      "<*>",
+      "in",
+      "stage",
+      "1.0",
+      "(TID",
+      "<*>",
+      "on",
+      "executor",
+      "mesos-slave-19:",
+      "org.apache.spark.api.python.PythonException",
+      "(Traceback",
+      "(most",
+      "recent",
+      "call",
+      "last):"
+    ]
+  },
+  "211": {
+    "template": ") [duplicate <*>",
+    "size": 5,
+    "log_template_tokens": [
+      ")",
+      "[duplicate",
+      "<*>"
+    ]
+  },
+  "212": {
+    "template": "17/03/21 09:38:51 INFO <*> <*> <*> <*>",
+    "size": 4,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:38:51",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "213": {
+    "template": "17/03/21 09:38:54 ERROR YarnClusterScheduler: Lost an executor 2 (already removed): Pending loss reason.",
+    "size": 1,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:38:54",
+      "ERROR",
+      "YarnClusterScheduler:",
+      "Lost",
+      "an",
+      "executor",
+      "2",
+      "(already",
+      "removed):",
+      "Pending",
+      "loss",
+      "reason."
+    ]
+  },
+  "214": {
+    "template": "17/03/21 09:38:54 INFO <*> <*> <*> <*>",
+    "size": 4,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:38:54",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "215": {
+    "template": "17/03/21 09:38:55 INFO <*> <*> <*> <*>",
+    "size": 4,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:38:55",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "216": {
+    "template": "17/03/21 09:40:00 INFO <*> <*> <*> <*>",
+    "size": 4,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:40:00",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "217": {
+    "template": "17/03/21 09:40:11 INFO <*> <*> <*> <*>",
+    "size": 4,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:40:11",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "218": {
+    "template": "17/03/21 09:40:16 INFO <*> <*> <*> <*>",
+    "size": 4,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:40:16",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "219": {
+    "template": "17/03/21 09:40:47 INFO <*> <*> <*> <*>",
+    "size": 4,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:40:47",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "220": {
+    "template": "17/03/21 09:41:09 INFO <*> <*> <*> <*>",
+    "size": 4,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:41:09",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "221": {
+    "template": "17/03/21 09:41:17 ERROR TaskSetManager: Task 24 in stage 1.0 failed 4 times; aborting job",
+    "size": 1,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:41:17",
+      "ERROR",
+      "TaskSetManager:",
+      "Task",
+      "24",
+      "in",
+      "stage",
+      "1.0",
+      "failed",
+      "4",
+      "times;",
+      "aborting",
+      "job"
+    ]
+  },
+  "222": {
+    "template": "17/03/21 09:41:17 INFO YarnClusterScheduler: Cancelling stage 1",
+    "size": 1,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:41:17",
+      "INFO",
+      "YarnClusterScheduler:",
+      "Cancelling",
+      "stage",
+      "1"
+    ]
+  },
+  "223": {
+    "template": "17/03/21 09:41:17 INFO YarnClusterScheduler: Stage 1 was cancelled",
+    "size": 1,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:41:17",
+      "INFO",
+      "YarnClusterScheduler:",
+      "Stage",
+      "1",
+      "was",
+      "cancelled"
+    ]
+  },
+  "224": {
+    "template": "17/03/21 09:41:17 INFO DAGScheduler: ShuffleMapStage 1 (reduceByKey at pnmf4.py:332) failed in 239.129 s",
+    "size": 1,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:41:17",
+      "INFO",
+      "DAGScheduler:",
+      "ShuffleMapStage",
+      "1",
+      "(reduceByKey",
+      "at",
+      "pnmf4.py:332)",
+      "failed",
+      "in",
+      "239.129",
+      "s"
+    ]
+  },
+  "225": {
+    "template": "17/03/21 09:41:17 WARN TaskSetManager: Lost task <*> in stage 1.0 (TID <*> mesos-slave-17): TaskKilled (killed intentionally)",
+    "size": 8,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:41:17",
+      "WARN",
+      "TaskSetManager:",
+      "Lost",
+      "task",
+      "<*>",
+      "in",
+      "stage",
+      "1.0",
+      "(TID",
+      "<*>",
+      "mesos-slave-17):",
+      "TaskKilled",
+      "(killed",
+      "intentionally)"
+    ]
+  },
+  "226": {
+    "template": "17/03/21 09:41:18 INFO <*> <*> <*>",
+    "size": 30,
+    "log_template_tokens": [
+      "17/03/21",
+      "09:41:18",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "227": {
+    "template": "17/03/23 14:32:32 INFO executor.CoarseGrainedExecutorBackend: <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/23",
+      "14:32:32",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "228": {
+    "template": "17/03/23 15:00:39 INFO executor.CoarseGrainedExecutorBackend: <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/23",
+      "15:00:39",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "229": {
+    "template": "17/03/23 15:07:48 INFO executor.CoarseGrainedExecutorBackend: <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/23",
+      "15:07:48",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "230": {
+    "template": "17/03/23 <*> ERROR shuffle.RetryingBlockFetcher: Exception while beginning fetch of 1 outstanding blocks",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/23",
+      "<*>",
+      "ERROR",
+      "shuffle.RetryingBlockFetcher:",
+      "Exception",
+      "while",
+      "beginning",
+      "fetch",
+      "of",
+      "1",
+      "outstanding",
+      "blocks"
+    ]
+  },
+  "231": {
+    "template": "17/03/23 15:10:14 INFO <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/23",
+      "15:10:14",
+      "INFO",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  },
+  "232": {
+    "template": "17/03/23 15:02:29 INFO executor.CoarseGrainedExecutorBackend: <*> <*> <*> <*>",
+    "size": 2,
+    "log_template_tokens": [
+      "17/03/23",
+      "15:02:29",
+      "INFO",
+      "executor.CoarseGrainedExecutorBackend:",
+      "<*>",
+      "<*>",
+      "<*>",
+      "<*>"
+    ]
+  }
+}

@@ -1,0 +1,809 @@
+{
+  "analysis_timestamp": "2025-10-14T20:00:14.028595",
+  "total_anomalies": 5161,
+  "failure_patterns": {
+    "cascade_failures": [],
+    "resource_exhaustion": [
+      {
+        "application_id": "application_1485248649253_0030",
+        "anomaly_count": 14,
+        "high_memory_count": "0",
+        "high_vcores_count": "0",
+        "affected_containers": 0,
+        "time_span": 143.45
+      },
+      {
+        "application_id": "application_1485248649253_0034",
+        "anomaly_count": 30,
+        "high_memory_count": "0",
+        "high_vcores_count": "0",
+        "affected_containers": 0,
+        "time_span": 12.366666666666667
+      }
+    ],
+    "network_issues": [
+      {
+        "ip_address": "10.10.34.24",
+        "anomaly_count": 9,
+        "affected_components": [
+          "server.TransportChannelHandler",
+          "client.TransportResponseHandler",
+          "client.TransportClientFactory",
+          "by"
+        ],
+        "error_types": {
+          "connection": 5
+        }
+      },
+      {
+        "ip_address": "10.10.34.17",
+        "anomaly_count": 1,
+        "affected_components": [
+          "server.TransportChannelHandler"
+        ],
+        "error_types": {
+          "connection": 1
+        }
+      },
+      {
+        "ip_address": "10.10.34.33",
+        "anomaly_count": 18,
+        "affected_components": [
+          "server.TransportChannelHandler",
+          "client.TransportResponseHandler",
+          "client.TransportClientFactory",
+          "by"
+        ],
+        "error_types": {
+          "connection": 10
+        }
+      },
+      {
+        "ip_address": "10.10.34.23",
+        "anomaly_count": 9,
+        "affected_components": [
+          "server.TransportChannelHandler",
+          "client.TransportResponseHandler",
+          "client.TransportClientFactory",
+          "by"
+        ],
+        "error_types": {
+          "connection": 5
+        }
+      },
+      {
+        "ip_address": "10.10.34.30",
+        "anomaly_count": 9,
+        "affected_components": [
+          "server.TransportChannelHandler",
+          "client.TransportResponseHandler",
+          "client.TransportClientFactory",
+          "by"
+        ],
+        "error_types": {
+          "connection": 5
+        }
+      },
+      {
+        "ip_address": "10.10.34.32",
+        "anomaly_count": 9,
+        "affected_components": [
+          "server.TransportChannelHandler",
+          "client.TransportResponseHandler",
+          "client.TransportClientFactory",
+          "by"
+        ],
+        "error_types": {
+          "connection": 5
+        }
+      },
+      {
+        "ip_address": "10.10.34.29",
+        "anomaly_count": 1,
+        "affected_components": [
+          "TransportChannelHandler"
+        ],
+        "error_types": {
+          "connection": 1
+        }
+      },
+      {
+        "ip_address": "10.10.34.20",
+        "anomaly_count": 9,
+        "affected_components": [
+          "server.TransportChannelHandler",
+          "client.TransportResponseHandler",
+          "client.TransportClientFactory",
+          "by"
+        ],
+        "error_types": {
+          "connection": 5
+        }
+      },
+      {
+        "ip_address": "10.10.34.11",
+        "anomaly_count": 18,
+        "affected_components": [
+          "server.TransportChannelHandler",
+          "client.TransportResponseHandler",
+          "client.TransportClientFactory",
+          "by"
+        ],
+        "error_types": {
+          "connection": 9
+        }
+      },
+      {
+        "ip_address": "10.10.34.16",
+        "anomaly_count": 18,
+        "affected_components": [
+          "client.TransportClientFactory",
+          "by",
+          "server.TransportChannelHandler",
+          "client.TransportResponseHandler"
+        ],
+        "error_types": {
+          "connection": 9
+        }
+      }
+    ],
+    "configuration_errors": [],
+    "temporal_clusters": [
+      {
+        "cluster_id": "16",
+        "size": 1122,
+        "time_span": 4.349999999976717,
+        "start_time": "2017-03-21 09:36:58",
+        "end_time": "2017-03-21 09:41:19",
+        "components_involved": [
+          "MemoryStore",
+          "BlockManagerInfo",
+          "SparkContext",
+          "ContextCleaner",
+          "YarnAllocator",
+          "YarnClusterScheduler",
+          "YarnSchedulerBackend$YarnSchedulerEndpoint",
+          "TaskSetManager",
+          "YarnClusterSchedulerBackend",
+          "AMRMClientImpl",
+          "ExecutorRunnable",
+          "ContainerManagementProtocolProxy",
+          "BlockManagerMasterEndpoint",
+          "TransportChannelHandler",
+          "DAGScheduler",
+          "BlockManagerMaster",
+          "ApplicationMaster",
+          "ContextHandler",
+          "SparkUI",
+          "MapOutputTrackerMasterEndpoint",
+          "BlockManager",
+          "OutputCommitCoordinator$OutputCommitCoordinatorEndpoint",
+          "RemoteActorRefProvider$RemotingTerminator",
+          "ShutdownHookManager"
+        ],
+        "log_levels": {
+          "INFO": 1010,
+          "WARN": 100,
+          "ERROR": 12
+        },
+        "avg_reconstruction_error": 8.400376052247436
+      },
+      {
+        "cluster_id": "19",
+        "size": 299,
+        "time_span": 6.599999999976717,
+        "start_time": "2017-03-23 15:07:46",
+        "end_time": "2017-03-23 15:14:22",
+        "components_involved": [
+          "storage.MemoryStore",
+          "broadcast.TorrentBroadcast",
+          "executor.CoarseGrainedExecutorBackend",
+          "storage.DiskBlockManager",
+          "util.ShutdownHookManager",
+          "spark.SecurityManager",
+          "slf4j.Slf4jLogger",
+          "Remoting",
+          "util.Utils",
+          "executor.Executor",
+          "netty.NettyBlockTransferService",
+          "storage.BlockManagerMaster",
+          "server.TransportChannelHandler",
+          "client.TransportResponseHandler",
+          "shuffle.OneForOneBlockFetcher",
+          "shuffle.RetryingBlockFetcher",
+          "client.TransportClientFactory",
+          "storage.BlockManager",
+          "remote.RemoteActorRefProvider$RemotingTerminator",
+          "python.PythonRunner"
+        ],
+        "log_levels": {
+          "INFO": 265,
+          "ERROR": 25,
+          "WARN": 9
+        },
+        "avg_reconstruction_error": 2.320724236510092
+      },
+      {
+        "cluster_id": "4",
+        "size": 200,
+        "time_span": 2.083333333313931,
+        "start_time": "2017-03-21 11:53:51",
+        "end_time": "2017-03-21 11:55:56",
+        "components_involved": [
+          "executor.CoarseGrainedExecutorBackend",
+          "spark.SecurityManager",
+          "slf4j.Slf4jLogger",
+          "Remoting",
+          "util.Utils",
+          "storage.DiskBlockManager",
+          "storage.MemoryStore",
+          "executor.Executor",
+          "netty.NettyBlockTransferService",
+          "storage.BlockManagerMaster",
+          "broadcast.TorrentBroadcast",
+          "server.TransportChannelHandler",
+          "client.TransportResponseHandler",
+          "shuffle.OneForOneBlockFetcher",
+          "shuffle.RetryingBlockFetcher",
+          "client.TransportClientFactory",
+          "storage.BlockManager",
+          "util.ShutdownHookManager"
+        ],
+        "log_levels": {
+          "INFO": 182,
+          "ERROR": 14,
+          "WARN": 4
+        },
+        "avg_reconstruction_error": 2.5427435751480694
+      },
+      {
+        "cluster_id": "0",
+        "size": 190,
+        "time_span": 1.0,
+        "start_time": "2017-03-16 17:46:33",
+        "end_time": "2017-03-16 17:47:33",
+        "components_involved": [
+          "executor.CoarseGrainedExecutorBackend",
+          "spark.SecurityManager",
+          "slf4j.Slf4jLogger",
+          "Remoting",
+          "util.Utils",
+          "storage.DiskBlockManager",
+          "storage.MemoryStore",
+          "executor.Executor",
+          "netty.NettyBlockTransferService",
+          "storage.BlockManagerMaster",
+          "broadcast.TorrentBroadcast",
+          "rdd.HadoopRDD",
+          "Configuration.deprecation",
+          "python.PythonRunner",
+          "ApplicationMaster",
+          "SecurityManager",
+          "SparkContext",
+          "Utils",
+          "Slf4jLogger",
+          "SparkEnv",
+          "DiskBlockManager",
+          "MemoryStore",
+          "JettyUtils",
+          "Server",
+          "AbstractConnector",
+          "SparkUI",
+          "YarnClusterScheduler",
+          "NettyBlockTransferService",
+          "BlockManagerMaster",
+          "BlockManagerMasterEndpoint",
+          "YarnSchedulerBackend$YarnSchedulerEndpoint",
+          "RMProxy",
+          "YarnRMClient",
+          "YarnAllocator",
+          "AMRMClientImpl",
+          "ExecutorRunnable",
+          "ContainerManagementProtocolProxy",
+          "YarnClusterSchedulerBackend",
+          "BlockManagerInfo",
+          "FileInputFormat",
+          "DAGScheduler",
+          "TaskSetManager"
+        ],
+        "log_levels": {
+          "INFO": 190
+        },
+        "avg_reconstruction_error": 15.33156369499991
+      },
+      {
+        "cluster_id": "5",
+        "size": 152,
+        "time_span": 5.133333333360497,
+        "start_time": "2017-03-23 14:27:24",
+        "end_time": "2017-03-23 14:32:32",
+        "components_involved": [
+          "executor.CoarseGrainedExecutorBackend",
+          "spark.SecurityManager",
+          "slf4j.Slf4jLogger",
+          "Remoting",
+          "util.Utils",
+          "storage.DiskBlockManager",
+          "storage.MemoryStore",
+          "executor.Executor",
+          "netty.NettyBlockTransferService",
+          "storage.BlockManagerMaster",
+          "broadcast.TorrentBroadcast",
+          "server.TransportChannelHandler",
+          "client.TransportResponseHandler",
+          "shuffle.OneForOneBlockFetcher",
+          "shuffle.RetryingBlockFetcher",
+          "client.TransportClientFactory",
+          "storage.BlockManager",
+          "util.ShutdownHookManager"
+        ],
+        "log_levels": {
+          "INFO": 144,
+          "ERROR": 6,
+          "WARN": 2
+        },
+        "avg_reconstruction_error": 1.7796041975510946
+      },
+      {
+        "cluster_id": "15",
+        "size": 148,
+        "time_span": 0.6833333332906477,
+        "start_time": "2017-03-21 09:28:42",
+        "end_time": "2017-03-21 09:29:23",
+        "components_involved": [
+          "ApplicationMaster",
+          "SecurityManager",
+          "SparkContext",
+          "Utils",
+          "Slf4jLogger",
+          "Remoting",
+          "SparkEnv",
+          "DiskBlockManager",
+          "MemoryStore",
+          "JettyUtils",
+          "Server",
+          "AbstractConnector",
+          "SparkUI",
+          "YarnClusterScheduler",
+          "NettyBlockTransferService",
+          "BlockManagerMaster",
+          "BlockManagerMasterEndpoint",
+          "YarnSchedulerBackend$YarnSchedulerEndpoint",
+          "RMProxy",
+          "YarnRMClient",
+          "YarnAllocator",
+          "AMRMClientImpl",
+          "ExecutorRunnable",
+          "ContainerManagementProtocolProxy",
+          "YarnClusterSchedulerBackend",
+          "BlockManagerInfo",
+          "FileInputFormat",
+          "DAGScheduler",
+          "TaskSetManager"
+        ],
+        "log_levels": {
+          "INFO": 148
+        },
+        "avg_reconstruction_error": 16.037392830215364
+      },
+      {
+        "cluster_id": "2",
+        "size": 139,
+        "time_span": 1.78333333338378,
+        "start_time": "2017-03-16 20:25:26",
+        "end_time": "2017-03-16 20:27:13",
+        "components_involved": [
+          "spark.MapOutputTrackerWorker",
+          "storage.ShuffleBlockFetcherIterator",
+          "python.PythonRunner",
+          "executor.Executor",
+          "storage.BlockManager",
+          "executor.CoarseGrainedExecutorBackend",
+          "storage.MemoryStore",
+          "util.ShutdownHookManager",
+          "remote.RemoteActorRefProvider$RemotingTerminator",
+          "TaskSetManager",
+          "BlockManagerInfo",
+          "YarnClusterScheduler",
+          "DAGScheduler",
+          "ParallelCollectionRDD",
+          "BlockManager",
+          "PythonRDD",
+          "ApplicationMaster",
+          "SparkContext",
+          "ContextHandler",
+          "SparkUI",
+          "YarnClusterSchedulerBackend",
+          "MapOutputTrackerMasterEndpoint",
+          "MemoryStore",
+          "BlockManagerMaster",
+          "OutputCommitCoordinator$OutputCommitCoordinatorEndpoint",
+          "RemoteActorRefProvider$RemotingTerminator",
+          "AMRMClientImpl",
+          "ShutdownHookManager"
+        ],
+        "log_levels": {
+          "INFO": 136,
+          "ERROR": 2,
+          "WARN": 1
+        },
+        "avg_reconstruction_error": 7.248769944538316
+      },
+      {
+        "cluster_id": "3",
+        "size": 137,
+        "time_span": 1.4499999999534339,
+        "start_time": "2017-03-21 10:28:57",
+        "end_time": "2017-03-21 10:30:24",
+        "components_involved": [
+          "executor.CoarseGrainedExecutorBackend",
+          "spark.SecurityManager",
+          "slf4j.Slf4jLogger",
+          "Remoting",
+          "util.Utils",
+          "storage.DiskBlockManager",
+          "storage.MemoryStore",
+          "executor.Executor",
+          "netty.NettyBlockTransferService",
+          "storage.BlockManagerMaster",
+          "broadcast.TorrentBroadcast",
+          "server.TransportChannelHandler",
+          "client.TransportResponseHandler",
+          "shuffle.OneForOneBlockFetcher",
+          "shuffle.RetryingBlockFetcher",
+          "client.TransportClientFactory",
+          "storage.BlockManager",
+          "util.ShutdownHookManager",
+          "remote.RemoteActorRefProvider$RemotingTerminator"
+        ],
+        "log_levels": {
+          "INFO": 127,
+          "ERROR": 6,
+          "WARN": 4
+        },
+        "avg_reconstruction_error": 2.083911740670716
+      },
+      {
+        "cluster_id": "8",
+        "size": 109,
+        "time_span": 1.4500000000116415,
+        "start_time": "2017-03-21 12:18:23",
+        "end_time": "2017-03-21 12:19:50",
+        "components_involved": [
+          "executor.CoarseGrainedExecutorBackend",
+          "spark.SecurityManager",
+          "slf4j.Slf4jLogger",
+          "Remoting",
+          "util.Utils",
+          "storage.DiskBlockManager",
+          "storage.MemoryStore",
+          "executor.Executor",
+          "netty.NettyBlockTransferService",
+          "storage.BlockManagerMaster",
+          "broadcast.TorrentBroadcast",
+          "server.TransportChannelHandler",
+          "client.TransportResponseHandler",
+          "shuffle.OneForOneBlockFetcher",
+          "shuffle.RetryingBlockFetcher",
+          "client.TransportClientFactory",
+          "storage.BlockManager",
+          "util.ShutdownHookManager"
+        ],
+        "log_levels": {
+          "INFO": 101,
+          "ERROR": 6,
+          "WARN": 2
+        },
+        "avg_reconstruction_error": 1.5832895869720904
+      },
+      {
+        "cluster_id": "17",
+        "size": 100,
+        "time_span": 1.7333333333372138,
+        "start_time": "2017-03-23 14:47:06",
+        "end_time": "2017-03-23 14:48:50",
+        "components_involved": [
+          "executor.CoarseGrainedExecutorBackend",
+          "executor.Executor",
+          "broadcast.TorrentBroadcast",
+          "storage.MemoryStore",
+          "server.TransportChannelHandler",
+          "client.TransportResponseHandler",
+          "shuffle.OneForOneBlockFetcher",
+          "shuffle.RetryingBlockFetcher",
+          "client.TransportClientFactory",
+          "storage.BlockManager",
+          "storage.DiskBlockManager",
+          "util.ShutdownHookManager"
+        ],
+        "log_levels": {
+          "INFO": 92,
+          "ERROR": 6,
+          "WARN": 2
+        },
+        "avg_reconstruction_error": 1.9700989221606293
+      },
+      {
+        "cluster_id": "14",
+        "size": 95,
+        "time_span": 0.38333333330228925,
+        "start_time": "2017-03-16 20:09:46",
+        "end_time": "2017-03-16 20:10:09",
+        "components_involved": [
+          "TaskSetManager",
+          "YarnClusterSchedulerBackend",
+          "DAGScheduler",
+          "BlockManagerMasterEndpoint",
+          "YarnAllocator",
+          "BlockManagerMaster",
+          "YarnSchedulerBackend$YarnSchedulerEndpoint",
+          "YarnClusterScheduler",
+          "AMRMClientImpl",
+          "ExecutorRunnable",
+          "ContainerManagementProtocolProxy",
+          "MemoryStore",
+          "BlockManagerInfo",
+          "SparkContext"
+        ],
+        "log_levels": {
+          "INFO": 84,
+          "WARN": 10,
+          "ERROR": 1
+        },
+        "avg_reconstruction_error": 8.470596115653974
+      },
+      {
+        "cluster_id": "9",
+        "size": 64,
+        "time_span": 0.5,
+        "start_time": "2016-04-07 10:45:34",
+        "end_time": "2016-04-07 10:46:04",
+        "components_involved": [
+          "executor.CoarseGrainedExecutorBackend",
+          "spark.SecurityManager",
+          "slf4j.Slf4jLogger",
+          "Remoting",
+          "util.Utils",
+          "storage.DiskBlockManager",
+          "storage.MemoryStore",
+          "executor.Executor",
+          "netty.NettyBlockTransferService",
+          "storage.BlockManagerMaster",
+          "broadcast.TorrentBroadcast",
+          "rdd.HadoopRDD",
+          "Configuration.deprecation",
+          "storage.BlockManager",
+          "util.ShutdownHookManager",
+          "remote.RemoteActorRefProvider$RemotingTerminator"
+        ],
+        "log_levels": {
+          "INFO": 61,
+          "ERROR": 2,
+          "WARN": 1
+        },
+        "avg_reconstruction_error": 3.4963829069894583
+      },
+      {
+        "cluster_id": "1",
+        "size": 63,
+        "time_span": 1.3333333333139308,
+        "start_time": "2017-03-16 17:53:44",
+        "end_time": "2017-03-16 17:55:04",
+        "components_involved": [
+          "executor.CoarseGrainedExecutorBackend",
+          "executor.Executor",
+          "broadcast.TorrentBroadcast",
+          "storage.MemoryStore",
+          "spark.SecurityManager",
+          "slf4j.Slf4jLogger",
+          "Remoting",
+          "util.Utils",
+          "storage.DiskBlockManager",
+          "netty.NettyBlockTransferService",
+          "storage.BlockManagerMaster",
+          "MemoryStore",
+          "BlockManagerInfo"
+        ],
+        "log_levels": {
+          "INFO": 63
+        },
+        "avg_reconstruction_error": 0.3020753298692494
+      },
+      {
+        "cluster_id": "7",
+        "size": 62,
+        "time_span": 1.6833333333488554,
+        "start_time": "2017-03-21 10:04:36",
+        "end_time": "2017-03-21 10:06:17",
+        "components_involved": [
+          "executor.CoarseGrainedExecutorBackend",
+          "executor.Executor",
+          "broadcast.TorrentBroadcast",
+          "storage.MemoryStore",
+          "storage.DiskBlockManager",
+          "util.ShutdownHookManager"
+        ],
+        "log_levels": {
+          "INFO": 61,
+          "ERROR": 1
+        },
+        "avg_reconstruction_error": 1.484736885659557
+      },
+      {
+        "cluster_id": "18",
+        "size": 46,
+        "time_span": 1.8500000000349246,
+        "start_time": "2017-03-23 15:00:38",
+        "end_time": "2017-03-23 15:02:29",
+        "components_involved": [
+          "executor.CoarseGrainedExecutorBackend",
+          "spark.SecurityManager",
+          "slf4j.Slf4jLogger",
+          "Remoting",
+          "util.Utils",
+          "storage.DiskBlockManager",
+          "storage.MemoryStore",
+          "executor.Executor",
+          "netty.NettyBlockTransferService",
+          "storage.BlockManagerMaster",
+          "broadcast.TorrentBroadcast"
+        ],
+        "log_levels": {
+          "INFO": 46
+        },
+        "avg_reconstruction_error": 0.8732158157562036
+      },
+      {
+        "cluster_id": "13",
+        "size": 45,
+        "time_span": 1.0333333333255723,
+        "start_time": "2017-03-16 20:32:30",
+        "end_time": "2017-03-16 20:33:32",
+        "components_involved": [
+          "spark.MapOutputTrackerWorker",
+          "storage.ShuffleBlockFetcherIterator",
+          "python.PythonRunner",
+          "executor.Executor",
+          "storage.BlockManager",
+          "executor.CoarseGrainedExecutorBackend",
+          "storage.MemoryStore",
+          "util.ShutdownHookManager",
+          "remote.RemoteActorRefProvider$RemotingTerminator"
+        ],
+        "log_levels": {
+          "INFO": 43,
+          "WARN": 1,
+          "ERROR": 1
+        },
+        "avg_reconstruction_error": 14.663587944522773
+      },
+      {
+        "cluster_id": "10",
+        "size": 43,
+        "time_span": 0.18333333334885538,
+        "start_time": "2017-03-14 22:35:50",
+        "end_time": "2017-03-14 22:36:01",
+        "components_involved": [
+          "executor.CoarseGrainedExecutorBackend",
+          "spark.SecurityManager",
+          "slf4j.Slf4jLogger",
+          "Remoting",
+          "util.Utils",
+          "storage.DiskBlockManager",
+          "storage.MemoryStore",
+          "executor.Executor",
+          "netty.NettyBlockTransferService",
+          "storage.BlockManagerMaster",
+          "broadcast.TorrentBroadcast",
+          "rdd.HadoopRDD",
+          "Configuration.deprecation",
+          "python.PythonRunner"
+        ],
+        "log_levels": {
+          "INFO": 43
+        },
+        "avg_reconstruction_error": 3.012427379648792
+      },
+      {
+        "cluster_id": "12",
+        "size": 25,
+        "time_span": 0.016666666662786156,
+        "start_time": "2017-03-16 18:01:24",
+        "end_time": "2017-03-16 18:01:25",
+        "components_involved": [
+          "executor.CoarseGrainedExecutorBackend",
+          "executor.Executor",
+          "broadcast.TorrentBroadcast",
+          "storage.MemoryStore"
+        ],
+        "log_levels": {
+          "INFO": 25
+        },
+        "avg_reconstruction_error": 0.01957352904660675
+      },
+      {
+        "cluster_id": "6",
+        "size": 20,
+        "time_span": 0.03333333332557231,
+        "start_time": "2017-03-21 09:53:07",
+        "end_time": "2017-03-21 09:53:09",
+        "components_involved": [
+          "executor.CoarseGrainedExecutorBackend",
+          "spark.SecurityManager",
+          "slf4j.Slf4jLogger",
+          "Remoting",
+          "util.Utils",
+          "storage.DiskBlockManager",
+          "storage.MemoryStore",
+          "executor.Executor",
+          "netty.NettyBlockTransferService",
+          "storage.BlockManagerMaster"
+        ],
+        "log_levels": {
+          "INFO": 20
+        },
+        "avg_reconstruction_error": 1.0315314804378979
+      },
+      {
+        "cluster_id": "11",
+        "size": 7,
+        "time_span": 0.0,
+        "start_time": "2017-03-14 22:47:11",
+        "end_time": "2017-03-14 22:47:11",
+        "components_involved": [
+          "executor.CoarseGrainedExecutorBackend",
+          "storage.MemoryStore",
+          "storage.BlockManager",
+          "util.ShutdownHookManager",
+          "remote.RemoteActorRefProvider$RemotingTerminator"
+        ],
+        "log_levels": {
+          "INFO": 5,
+          "WARN": 1,
+          "ERROR": 1
+        },
+        "avg_reconstruction_error": 2.0334623285318267
+      }
+    ]
+  },
+  "graph_metrics": {
+    "total_nodes": 5161,
+    "total_edges": 712002,
+    "density": 0.026736075125156022,
+    "strongly_connected_components": 5161,
+    "weakly_connected_components": 2121
+  },
+  "critical_nodes": [
+    [
+      "YarnAllocator_None_55871",
+      0.21705426356589147
+    ],
+    [
+      "YarnAllocator_None_55872",
+      0.21705426356589147
+    ],
+    [
+      "YarnAllocator_None_55875",
+      0.21531007751937983
+    ],
+    [
+      "YarnAllocator_None_55876",
+      0.21531007751937983
+    ],
+    [
+      "YarnAllocator_None_60106",
+      0.21511627906976744
+    ]
+  ],
+  "recommendations": [
+    "Implement dynamic resource allocation and monitoring",
+    "Set up memory and CPU usage alerts",
+    "Consider container resource limits optimization",
+    "Implement network retry mechanisms with exponential backoff",
+    "Add network connectivity monitoring",
+    "Consider network topology optimization",
+    "Investigate periodic failure patterns",
+    "Consider load balancing and traffic distribution",
+    "Implement predictive scaling based on temporal patterns"
+  ]
+}
