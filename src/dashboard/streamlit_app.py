@@ -310,7 +310,7 @@ class SparkAnomalyDashboard:
                 )
                 fig.update_layout(height=400)
                 st.plotly_chart(fig, use_container_width=True)
-    
+
     def render_anomaly_heatmap(self, df):
         """Render anomaly heatmap"""
         st.header("🔥 Anomaly Heatmap")
@@ -343,7 +343,75 @@ class SparkAnomalyDashboard:
         fig.update_layout(height=400)
         
         st.plotly_chart(fig, use_container_width=True)
-    
+
+    def render_anomaly_distribution(self, df):
+        """Render anomaly distribution analysis section.
+        - By Log Level
+        - Top 10 Affected Components
+        """
+        st.header("📊 Anomaly Distribution Analysis")
+
+        if df is None or df.empty:
+            st.warning("No data available")
+            return
+
+        anomalies = df[df.get('is_anomaly', False)].copy()
+
+        if anomalies.empty:
+            st.info("No anomalies detected to analyze distribution")
+            return
+
+        # Textual summary like the requested dashboard format
+        total_anomalies = len(anomalies)
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.subheader("Log Level")
+            if 'log_level' in anomalies.columns:
+                level_counts = anomalies['log_level'].value_counts()
+                if not level_counts.empty:
+                    fig = px.pie(
+                        values=level_counts.values,
+                        names=level_counts.index,
+                    )
+                    fig.update_layout(
+                        height=400,
+                        legend=dict(
+                            orientation='v',
+                            y=0.5,
+                            yanchor='middle',
+                            x=0.0,
+                            xanchor='left'
+                        )
+                    )
+                    st.plotly_chart(fig, use_container_width=True)
+                else:
+                    st.info("No log level information available for anomalies")
+            else:
+                st.info("Column 'log_level' not found in data")
+
+        with col2:
+            st.subheader("Top 5 Affected Components")
+            if 'component' in anomalies.columns and total_anomalies > 0:
+                comp_counts = (
+                    anomalies['component']
+                    .fillna('UNKNOWN')
+                    .replace('', 'UNKNOWN')
+                    .value_counts()
+                )
+                top5 = comp_counts.head(5)
+                if not top5.empty:
+                    lines = []
+                    for i, (comp, count) in enumerate(top5.items(), start=1):
+                        pct = (count / total_anomalies) * 100
+                        lines.append(f"{i}. **{comp}:** {count:,} anomalies ({pct:.1f}%)")
+                    st.markdown("\n".join(lines))
+                else:
+                    st.info("No component information available for anomalies")
+            else:
+                st.info("Column 'component' not found in data")
+
     def render_root_cause_analysis(self):
         """Render root cause analysis results"""
         st.header("🔍 Root Cause Analysis")
@@ -397,8 +465,7 @@ class SparkAnomalyDashboard:
                     st.markdown(f"{i}. {rec}")
             else:
                 st.info("No specific recommendations available")
-    
-    
+
     def render_detailed_view(self, df):
         """Render detailed anomaly log view"""
         st.header("📋 Detailed Anomaly Log View")
@@ -465,14 +532,18 @@ class SparkAnomalyDashboard:
             
             st.divider()
             
-            # Root Cause Analysis
-            self.render_root_cause_analysis()
-            
+            # Anomaly Distribution Analysis
+            self.render_anomaly_distribution(filtered_df)
+
             st.divider()
             
-            # Component analysis and heatmap
-            self.render_component_analysis(filtered_df)
+            # Anomaly Heatmap
             self.render_anomaly_heatmap(filtered_df)
+
+            st.divider()
+
+            # Root Cause Analysis
+            self.render_root_cause_analysis()
             
             st.divider()
             
