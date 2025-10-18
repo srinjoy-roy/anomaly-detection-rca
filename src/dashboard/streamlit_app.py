@@ -234,7 +234,7 @@ class SparkAnomalyDashboard:
         
         # Prepare timeline data
         df_timeline = df.copy()
-        df_timeline['hour'] = df_timeline['timestamp'].dt.floor('H')
+        df_timeline['hour'] = df_timeline['timestamp'].dt.floor('h')
         
         # Aggregate by hour
         timeline_data = df_timeline.groupby(['hour', 'is_anomaly']).size().reset_index(name='count')
